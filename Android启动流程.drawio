@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-09-08T02:52:58.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="vxar1cpIB--tl-tdGvQa" version="13.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-08T04:27:28.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36" etag="18g1_kkTB-8FSwELQeP2" version="13.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="865" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="2127" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#283618" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -111,6 +111,9 @@
         <mxCell id="KNs_eEzD3WBDnFdoHL3F-29" value="读取init.c并执行&lt;br&gt;根据fstab分区表挂载分区&lt;br&gt;启动Zygote等&lt;br&gt;/style/bin/app_process......" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="945" y="140" width="170" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-37" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KNs_eEzD3WBDnFdoHL3F-32" target="KNs_eEzD3WBDnFdoHL3F-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KNs_eEzD3WBDnFdoHL3F-32" value="App_main.cpp.main()" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontColor=#FEFAE0;strokeColor=#DDA15E;strokeWidth=1;fillColor=#BC6C25;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1170" y="70" width="120" height="60" as="geometry" />
         </mxCell>
@@ -119,6 +122,51 @@
         </mxCell>
         <mxCell id="KNs_eEzD3WBDnFdoHL3F-35" value="1.解析app_process的参数&lt;br&gt;2.设置当前进程名位zygote&lt;br&gt;3.调用AndroidRuntime.start" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1150" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-40" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KNs_eEzD3WBDnFdoHL3F-36" target="KNs_eEzD3WBDnFdoHL3F-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-36" value="AndroidRuntime.cpp.start()" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontColor=#FEFAE0;strokeColor=#DDA15E;strokeWidth=1;fillColor=#BC6C25;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1370" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-38" value="1.启动虚拟机startVm&lt;br&gt;2.注册JNI方法startReg&lt;br&gt;3.反射调用ZygoteInit.main" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1360" y="150" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-43" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KNs_eEzD3WBDnFdoHL3F-39" target="KNs_eEzD3WBDnFdoHL3F-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-39" value="ZygoteInit.java.main()" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontColor=#FEFAE0;strokeColor=#DDA15E;strokeWidth=1;fillColor=#BC6C25;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1630" y="70" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-41" value="1.启动预加载 preload();&lt;br&gt;2.startSystemServer会fork并配置子进程system_server&lt;br&gt;3.通过RuntimeInit反射调用启动SystemServer.main" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1590" y="150" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-46" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KNs_eEzD3WBDnFdoHL3F-42" target="KNs_eEzD3WBDnFdoHL3F-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-42" value="SystemServer.java.main()" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontColor=#FEFAE0;strokeColor=#DDA15E;strokeWidth=1;fillColor=#BC6C25;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1970" y="70" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-44" value="1.初始化Looper;Looper.prepareMainLooper();&lt;br&gt;2.加载服务的JNI库：System.loadLibrary(&quot;android_servers&quot;);&lt;br&gt;3.创建SystemServiceManager&lt;br&gt;4.启动Android服务&lt;br&gt;startBootstrapServices&lt;br&gt;startCoreServices&lt;br&gt;startOtherServices(会执行ActivityManagerService.systemReady)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1891.25" y="140" width="397.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-49" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#DDA15E;fillColor=#BC6C25;fontColor=#FEFAE0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="KNs_eEzD3WBDnFdoHL3F-45" target="KNs_eEzD3WBDnFdoHL3F-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-45" value="ActivityManagerService.java.systemReady()" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontColor=#FEFAE0;strokeColor=#DDA15E;strokeWidth=1;fillColor=#BC6C25;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2350" y="70" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-47" value="1.系统准备工作systemReady()&lt;br&gt;2.发送开机广播finishBooting()&lt;br&gt;3.启动桌面应用startHomeActivityLocked()&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2281.25" y="150" width="397.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-48" value="Launcher" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;fontColor=#FEFAE0;strokeColor=#DDA15E;strokeWidth=1;fillColor=#BC6C25;glass=0;sketch=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2760" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-50" value="App进程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2790" y="40" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KNs_eEzD3WBDnFdoHL3F-51" value="startHomeActivityLocked" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontColor=#FEFAE0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2630" y="60" width="110" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
