@@ -1,31 +1,91 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T05:01:46.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="RiGPjWv_-9YXxRSsU9bG" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T06:50:23.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="GftInqVIgawSo-F39s_3" version="13.10.1" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="868" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CwVmDufWgFMHMGyQT35G-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="160" width="460" height="250" as="geometry" />
+        <mxCell id="CwVmDufWgFMHMGyQT35G-34" value="终端产品" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="20" y="141" width="80" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="CwVmDufWgFMHMGyQT35G-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-2" target="CwVmDufWgFMHMGyQT35G-3">
+        <mxCell id="CwVmDufWgFMHMGyQT35G-1" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="130" width="540" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-4" value="拉流flv" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-2" target="CwVmDufWgFMHMGyQT35G-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CwVmDufWgFMHMGyQT35G-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-2">
+        <mxCell id="CwVmDufWgFMHMGyQT35G-7" value="其他用户请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-2" target="CwVmDufWgFMHMGyQT35G-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="524" y="12" as="targetPoint" />
+            <mxPoint x="524" y="30" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CwVmDufWgFMHMGyQT35G-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-2" target="CwVmDufWgFMHMGyQT35G-9">
+        <mxCell id="CwVmDufWgFMHMGyQT35G-10" value="视频回放" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;curved=1;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-2" target="CwVmDufWgFMHMGyQT35G-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CwVmDufWgFMHMGyQT35G-2" value="网关" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Application_Gateways.svg;" vertex="1" parent="1">
-          <mxGeometry x="400" y="70" width="64" height="64" as="geometry" />
+        <mxCell id="CwVmDufWgFMHMGyQT35G-2" value="nginx反向代理" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=14;image=img/lib/azure2/networking/Application_Gateways.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="60" width="64" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="CwVmDufWgFMHMGyQT35G-3" value="流媒体服务器" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/web/Azure_Media_Service.svg;" vertex="1" parent="1">
-          <mxGeometry x="280" y="232" width="68" height="68" as="geometry" />
+        <mxCell id="CwVmDufWgFMHMGyQT35G-14" value="直播流转存" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-3" target="CwVmDufWgFMHMGyQT35G-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="267" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="CwVmDufWgFMHMGyQT35G-9" value="静态资源服务器" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1">
-          <mxGeometry x="400" y="280" width="64" height="52" as="geometry" />
+        <mxCell id="CwVmDufWgFMHMGyQT35G-3" value="流媒体服务器集群" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/web/Azure_Media_Service.svg;" vertex="1" parent="1">
+          <mxGeometry x="220" y="232" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-15" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-9" target="CwVmDufWgFMHMGyQT35G-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-9" value="静态资源服务器集群" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Cache_Redis.svg;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-16" value="静态资源操作" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-11" target="CwVmDufWgFMHMGyQT35G-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-18" value="直播控制" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-11" target="CwVmDufWgFMHMGyQT35G-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-11" value="微服务集群" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/compute/App_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="530" y="234" width="64" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-20" value="用户请求" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-19" target="CwVmDufWgFMHMGyQT35G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-10" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-21" value="浏览器" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-2.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-22" value="安卓客户端" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.android;fillColor=#A4CA39;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-5" width="40" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-23" value="ios客户端" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apple;fillColor=#1B1C1C;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-44" y="-5" width="48" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-25" value="网络访问" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="1" target="CwVmDufWgFMHMGyQT35G-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="-133.20000000000005" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-28" value="rtmp推流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-34" target="CwVmDufWgFMHMGyQT35G-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="266" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-27" value="注册用户" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="-54" y="-200" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-29" value="" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.technology_icons.icon10;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="31.6" y="171" width="56.8" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-33" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.android;fillColor=#A4CA39;strokeColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="36.1" y="309" width="47.8" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;fontSize=14;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-37" target="CwVmDufWgFMHMGyQT35G-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CwVmDufWgFMHMGyQT35G-37" value="终端产品用户集体" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.messenger;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-126" y="228" width="82.60000000000001" height="76.80000000000001" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
