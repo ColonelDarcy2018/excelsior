@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-23T06:50:23.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="GftInqVIgawSo-F39s_3" version="13.10.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-23T06:59:35.443Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.66 Safari/537.36" etag="raq0tgI2uBifopxM--eE" version="13.10.1" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="1718" dy="1592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,18 +51,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CwVmDufWgFMHMGyQT35G-19" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-170" y="-10" width="300" height="60" as="geometry" />
+          <mxGeometry x="-90" y="-30" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CwVmDufWgFMHMGyQT35G-21" value="浏览器" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.chrome;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="60" y="-2.5" width="50" height="45" as="geometry" />
+          <mxGeometry x="140" y="-22.5" width="50" height="45" as="geometry" />
         </mxCell>
         <mxCell id="CwVmDufWgFMHMGyQT35G-22" value="安卓客户端" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.android;fillColor=#A4CA39;strokeColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-140" y="-5" width="40" height="50" as="geometry" />
+          <mxGeometry x="-60" y="-25" width="40" height="50" as="geometry" />
         </mxCell>
         <mxCell id="CwVmDufWgFMHMGyQT35G-23" value="ios客户端" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.apple;fillColor=#1B1C1C;strokeColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-44" y="-5" width="48" height="47.5" as="geometry" />
+          <mxGeometry x="36" y="-25" width="48" height="47.5" as="geometry" />
         </mxCell>
-        <mxCell id="CwVmDufWgFMHMGyQT35G-25" value="网络访问" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startArrow=classic;startFill=1;" edge="1" parent="1" target="CwVmDufWgFMHMGyQT35G-19">
+        <mxCell id="CwVmDufWgFMHMGyQT35G-25" value="网络访问" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;startArrow=classic;startFill=1;exitX=0.485;exitY=1.015;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="CwVmDufWgFMHMGyQT35G-27" target="CwVmDufWgFMHMGyQT35G-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-20" y="-133.20000000000005" as="sourcePoint" />
           </mxGeometry>
@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CwVmDufWgFMHMGyQT35G-27" value="注册用户" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
-          <mxGeometry x="-54" y="-200" width="68" height="66" as="geometry" />
+          <mxGeometry x="26" y="-180" width="68" height="66" as="geometry" />
         </mxCell>
         <mxCell id="CwVmDufWgFMHMGyQT35G-29" value="" style="verticalLabelPosition=bottom;html=1;fillColor=#282828;strokeColor=none;verticalAlign=top;pointerEvents=1;align=center;shape=mxgraph.cisco_safe.technology_icons.icon10;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="31.6" y="171" width="56.8" height="52" as="geometry" />
