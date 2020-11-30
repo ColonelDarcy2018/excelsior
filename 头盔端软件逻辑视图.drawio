@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T02:46:31.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="hkhQdqu6Z7AUPj4p2pu_" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T02:51:52.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="FnDKqK8m205XWLV0UtzV" version="13.10.4" type="github">
   <diagram id="UD5Rg1CCWS8HYWvJp8g0" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shape=flexArrow;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="420" as="sourcePoint" />
+            <mxPoint x="485" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="140" width="490" height="280" as="geometry" />
         </mxCell>
@@ -78,6 +84,24 @@
         </mxCell>
         <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-38" value="参数设置&amp;amp;黑体校正" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="470" width="490" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-40" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="530" as="sourcePoint" />
+            <mxPoint x="300" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-41" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="490" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-42" value="安卓本地存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="426" y="485" width="118" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-44" value="安卓I/O" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="430" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
