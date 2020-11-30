@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T03:04:24.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.10.4" etag="hmRZOIokN-hk38Dmd7Ve" type="github"><diagram id="trq6vkITj8GTFHiVhLCf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-30T05:10:18.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="P_vL0C0tqHsV-31xcUk9" version="13.10.4" type="github">
+  <diagram id="trq6vkITj8GTFHiVhLCf" name="Page-1">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-1" value="ARouter导航、安卓按键回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-2" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="260" as="sourcePoint" />
+            <mxPoint x="560" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-3" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="180" as="sourcePoint" />
+            <mxPoint x="560" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-4" value="测温组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-5" value="人脸组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-6" value="车牌组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-7" value="身份证组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-8" value="功能导航" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-12" value="功能模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="195" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-13" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="sourcePoint" />
+            <mxPoint x="560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-14" value="框架工具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-16" value="loading框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="269" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-17" value="蓝牙连接框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-18" value="参数配置类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-19" value="服务路由框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
