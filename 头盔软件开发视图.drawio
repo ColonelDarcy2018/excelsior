@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T05:10:18.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="P_vL0C0tqHsV-31xcUk9" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T05:16:18.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="RL419nVQeyh1xgxRwzUI" version="13.10.4" type="github">
   <diagram id="trq6vkITj8GTFHiVhLCf" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YJvB2eoP43ZOFPt_pWM3-1" value="ARouter导航、安卓按键回调" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="400" height="40" as="geometry" />
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-1" value="安卓按键回调、ARouter导航" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="80" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YJvB2eoP43ZOFPt_pWM3-2" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -32,7 +32,7 @@
           <mxGeometry x="460" y="190" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YJvB2eoP43ZOFPt_pWM3-8" value="功能导航" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="120" width="100" height="40" as="geometry" />
+          <mxGeometry x="610" y="80" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YJvB2eoP43ZOFPt_pWM3-12" value="功能模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="195" width="100" height="50" as="geometry" />
@@ -57,6 +57,57 @@
         </mxCell>
         <mxCell id="YJvB2eoP43ZOFPt_pWM3-19" value="服务路由框架" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="290" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-20" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="500" as="sourcePoint" />
+            <mxPoint x="560" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-21" value="数据存储" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="430" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-23" value="安卓本地存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264.5" y="425" width="191" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-24" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="410" as="sourcePoint" />
+            <mxPoint x="560" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-25" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="410" as="sourcePoint" />
+            <mxPoint x="190" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-27" value="" style="shape=flexArrow;endArrow=none;html=1;startArrow=block;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="410" as="sourcePoint" />
+            <mxPoint x="530" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-28" value="安卓I/O" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-29" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="sourcePoint" />
+            <mxPoint x="160" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-30" value="" style="endArrow=none;html=1;strokeColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="350" as="sourcePoint" />
+            <mxPoint x="560" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YJvB2eoP43ZOFPt_pWM3-33" value="" style="shape=flexArrow;endArrow=none;html=1;startArrow=block;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.5" y="180" as="sourcePoint" />
+            <mxPoint x="359.5" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
