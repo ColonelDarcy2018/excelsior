@@ -1,11 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T07:36:39.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="Vsh--Kk615LHr7roO3bf" version="13.10.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T07:55:59.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="kAN874pw_lNT4NkQHfCR" version="13.10.4" type="github">
   <diagram id="KhsklGTtEGQ5Gy6JObHU" name="Page-1">
-    <mxGraphModel dx="1038" dy="1699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EEEEEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tAI2BneLDk_JPqfs_pAY-50" value="其它组件" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;arcSize=22;" parent="1" vertex="1">
+        <mxCell id="tAI2BneLDk_JPqfs_pAY-50" value="框架工具" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;arcSize=22;" parent="1" vertex="1">
           <mxGeometry x="70" y="350" width="570" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ywUDVs_6B-Btmyf5ewqs-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tAI2BneLDk_JPqfs_pAY-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="245" y="349" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tAI2BneLDk_JPqfs_pAY-15" value="头盔主要功能" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;verticalAlign=top;arcSize=21;" parent="1" vertex="1">
           <mxGeometry x="70" y="90" width="350" height="230" as="geometry" />
@@ -64,13 +69,13 @@
         <mxCell id="tAI2BneLDk_JPqfs_pAY-40" value="黑体测温" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="480" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAI2BneLDk_JPqfs_pAY-48" value="loading组件" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;gradientColor=#ea6b66;" parent="1" vertex="1">
+        <mxCell id="tAI2BneLDk_JPqfs_pAY-48" value="loading框架" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="295" y="375" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAI2BneLDk_JPqfs_pAY-49" value="蓝牙连接组件" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;gradientColor=#ea6b66;" parent="1" vertex="1">
+        <mxCell id="tAI2BneLDk_JPqfs_pAY-49" value="蓝牙连接框架" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="110" y="372.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tAI2BneLDk_JPqfs_pAY-51" value="兼容参数配置类" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;gradientColor=#ea6b66;" parent="1" vertex="1">
+        <mxCell id="tAI2BneLDk_JPqfs_pAY-51" value="参数配置类" style="whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;gradientColor=#ea6b66;" parent="1" vertex="1">
           <mxGeometry x="480" y="372.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
