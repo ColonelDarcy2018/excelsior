@@ -1,100 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T02:59:30.039Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="uP7FkKz2is3Yb7D_6dOf" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-30T03:25:04.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="k_rxGWcEVha8QGywVjDt" version="13.10.4" type="github">
   <diagram id="UD5Rg1CCWS8HYWvJp8g0" name="Page-1">
     <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="240" width="490" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-16" value="" style="endArrow=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-15" target="Yr0-ymSCTVtCz-7k5Eg6-15">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-16" value="" style="endArrow=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-15" target="Yr0-ymSCTVtCz-7k5Eg6-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="240" as="sourcePoint" />
             <mxPoint x="440" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-17" value="" style="endArrow=none;html=1;entryX=1.003;entryY=0.598;entryDx=0;entryDy=0;exitX=0.002;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-15" target="Yr0-ymSCTVtCz-7k5Eg6-15">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-17" value="" style="endArrow=none;html=1;entryX=1.003;entryY=0.598;entryDx=0;entryDy=0;exitX=0.002;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-15" target="Yr0-ymSCTVtCz-7k5Eg6-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="370" as="sourcePoint" />
             <mxPoint x="260" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-18" value="业务逻辑层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-18" value="业务逻辑层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="205" y="295" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-19" value="基础组件层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-19" value="框架工具层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="200" y="400" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="170" width="490" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-21" value="" style="endArrow=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-20" target="Yr0-ymSCTVtCz-7k5Eg6-20">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-21" value="" style="endArrow=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-20" target="Yr0-ymSCTVtCz-7k5Eg6-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="230" as="sourcePoint" />
             <mxPoint x="320" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-22" value="表现层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-22" value="表现层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="200" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-23" value="测温界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-23" value="测温界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="190" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-24" value="人脸识别界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-24" value="人脸识别界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="190" width="74" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-25" value="车牌识别界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-25" value="车牌识别界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="483" y="190" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-26" value="身份证识别界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-26" value="身份证识别界面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="572" y="190" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-28" value="人脸识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-28" value="人脸识别模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="322" y="260" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-29" value="红外测温模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-29" value="红外测温模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="438" y="260" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-28" target="Yr0-ymSCTVtCz-7k5Eg6-28">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-28" target="Yr0-ymSCTVtCz-7k5Eg6-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-31" value="车牌识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-31" value="车牌识别模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="322" y="315" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-32" value="身份证识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-32" value="身份证识别模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="558" y="260" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-34" value="蓝牙服务模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-34" value="蓝牙服务模块" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="438" y="315" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-35" value="loading组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-35" value="loading框架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="395" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-36" value="蓝牙连接组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-36" value="蓝牙连接框架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="310" y="395" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-37" value="参数配置类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-37" value="参数配置类" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="582" y="395" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-38" value="参数设置&amp;amp;黑体校正" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-38" value="参数设置&amp;amp;黑体校正" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="558" y="315" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-39" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="450" width="490" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-41" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-41" value="数据层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="470" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-42" value="安卓本地存储" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-42" value="安卓本地存储" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="426" y="465" width="118" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-45" value="" style="endArrow=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-39" target="Yr0-ymSCTVtCz-7k5Eg6-39">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-45" value="" style="endArrow=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-39" target="Yr0-ymSCTVtCz-7k5Eg6-39" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="505" as="sourcePoint" />
             <mxPoint x="360" y="455" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-46" value="服务路由组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-46" value="服务路由框架" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="492" y="395" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
