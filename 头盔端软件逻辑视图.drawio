@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2020-11-30T01:41:09.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="13.10.4" etag="PkkKbxYhON9Rt6fsbYeK" type="github"><diagram id="UD5Rg1CCWS8HYWvJp8g0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-30T02:46:31.546Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="hkhQdqu6Z7AUPj4p2pu_" version="13.10.4" type="github">
+  <diagram id="UD5Rg1CCWS8HYWvJp8g0" name="Page-1">
+    <mxGraphModel dx="1038" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="140" width="490" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-16" value="" style="endArrow=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-15" target="Yr0-ymSCTVtCz-7k5Eg6-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-17" value="" style="endArrow=none;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-15" target="Yr0-ymSCTVtCz-7k5Eg6-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="370" as="sourcePoint" />
+            <mxPoint x="260" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-18" value="业务逻辑层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="230" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-19" value="通用组件层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="490" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-21" value="" style="endArrow=none;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-20" target="Yr0-ymSCTVtCz-7k5Eg6-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="130" as="sourcePoint" />
+            <mxPoint x="320" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-22" value="表现层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-23" value="测温界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-24" value="人脸识别界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="74" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-25" value="车牌识别界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-26" value="身份证识别界面" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="572" y="90" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-28" value="人脸识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-29" value="红外测温模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="170" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Yr0-ymSCTVtCz-7k5Eg6-28" target="Yr0-ymSCTVtCz-7k5Eg6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-31" value="车牌识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="225" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-32" value="身份证识别模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="225" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-34" value="蓝牙服务模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-35" value="loading组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="370" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-36" value="蓝牙连接组件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-37" value="参数配置类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yr0-ymSCTVtCz-7k5Eg6-38" value="参数设置&amp;amp;黑体校正" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="280" width="90" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
