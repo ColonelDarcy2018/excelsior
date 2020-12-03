@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T00:56:53.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qzRz2jGmfpE3twjM9h5a" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T00:59:30.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="wfXN6N4eQUD_wtg1LTkv" version="13.10.6" type="github">
   <diagram id="0igT6Z8USLS9-a0kmWIc" name="Page-1">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="say96UhuK-gsWxpFCwGg-1" value="BluetoothSocketUtils" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="520" width="420" height="242" as="geometry" />
+          <mxGeometry x="320" y="450" width="420" height="242" as="geometry" />
         </mxCell>
         <mxCell id="say96UhuK-gsWxpFCwGg-2" value="BluetoothAdapter mBluetoothAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
           <mxGeometry y="26" width="420" height="26" as="geometry" />
@@ -138,7 +138,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="say96UhuK-gsWxpFCwGg-12" value="蓝牙socket工具类" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="100" y="510" width="120" height="60" as="geometry" />
+          <mxGeometry x="100" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="say96UhuK-gsWxpFCwGg-14" value="&lt;br&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.864;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="say96UhuK-gsWxpFCwGg-1">
           <mxGeometry width="160" relative="1" as="geometry">
