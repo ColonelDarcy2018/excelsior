@@ -1,107 +1,152 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T08:13:04.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JSc5nnV95sLZpipn_Vtm" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T00:56:53.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="qzRz2jGmfpE3twjM9h5a" version="13.10.6" type="github">
   <diagram id="0igT6Z8USLS9-a0kmWIc" name="Page-1">
-    <mxGraphModel dx="1038" dy="1744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-1" value="Pin" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-1" value="Pin" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="-140" width="460" height="346" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-2" value="BluetoothAdapter mBluetoothAdapter" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-2" value="BluetoothAdapter mBluetoothAdapter" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="26" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-3" value="ScanBlueReceiver scanBlueReceiver" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-3" value="ScanBlueReceiver scanBlueReceiver" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="52" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-4" value="PinBlueReceiver pinBlueReceiver" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-4" value="PinBlueReceiver pinBlueReceiver" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="78" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-5" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="104" width="460" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-6" value="void pin(BluetoothDevice device, PinBlueCallBack pinBlueCallBack, Context context)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-6" value="void pin(BluetoothDevice device, PinBlueCallBack pinBlueCallBack, Context context)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="112" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-7" value="void cancelPinBule(BluetoothDevice device)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-7" value="void cancelPinBule(BluetoothDevice device)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="138" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-8" value="void openBluetooth(ScanBlueCallBack scanBlueCallBack, Context context)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-8" value="void openBluetooth(ScanBlueCallBack scanBlueCallBack, Context context)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="164" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-9" value="boolean scanBlue()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-9" value="boolean scanBlue()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="190" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-10" value="boolean cancelScanBule()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-10" value="boolean cancelScanBule()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="216" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-11" value="boolean isSupportBlue()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-11" value="boolean isSupportBlue()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="242" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-12" value="boolean isBlueEnable()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-12" value="boolean isBlueEnable()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="268" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-13" value="void openBlueAsync()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-13" value="void openBlueAsync()" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-1" vertex="1">
           <mxGeometry y="294" width="460" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPin&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void pin(BluetoothDevice device, PinBlueCallBack pinBlueCallBack, Context context)&lt;br&gt;void cancelPinBule(BluetoothDevice device)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void openBluetooth(ScanBlueCallBack scanBlueCallBack, Context context)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-14" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IPin&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void pin(BluetoothDevice device, PinBlueCallBack pinBlueCallBack, Context context)&lt;br&gt;void cancelPinBule(BluetoothDevice device)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void openBluetooth(ScanBlueCallBack scanBlueCallBack, Context context)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="100" y="-350" width="460" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="1" source="M-jWcVCXZFEZKFXjyS6u-1" target="M-jWcVCXZFEZKFXjyS6u-14">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-15" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" parent="1" source="M-jWcVCXZFEZKFXjyS6u-1" target="M-jWcVCXZFEZKFXjyS6u-14" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="130" y="-180" as="sourcePoint" />
             <mxPoint x="290" y="-180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="M-jWcVCXZFEZKFXjyS6u-17" target="M-jWcVCXZFEZKFXjyS6u-14">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="M-jWcVCXZFEZKFXjyS6u-17" target="M-jWcVCXZFEZKFXjyS6u-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-17" value="蓝牙配对接口" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-17" value="蓝牙配对接口" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="620" y="-350" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M-jWcVCXZFEZKFXjyS6u-19" target="M-jWcVCXZFEZKFXjyS6u-1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="M-jWcVCXZFEZKFXjyS6u-19" target="M-jWcVCXZFEZKFXjyS6u-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="-117" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-19" value="蓝牙配对实现类" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-19" value="蓝牙配对实现类" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" parent="1" vertex="1">
           <mxGeometry x="620" y="-150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-20" value="ScanBlueReceiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="350" y="312" width="260" height="86" as="geometry" />
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-20" value="ScanBlueReceiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="380" y="312" width="260" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-21" value="ScanBlueCallBack callBack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-20">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-21" value="ScanBlueCallBack callBack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-20" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-20">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-20" vertex="1">
           <mxGeometry y="52" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-23" value="void onReceive(Context context, Intent intent)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-20">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-23" value="void onReceive(Context context, Intent intent)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-20" vertex="1">
           <mxGeometry y="60" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-24" value="PinBlueReceiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="50" y="312" width="260" height="86" as="geometry" />
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-24" value="PinBlueReceiver" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="100" y="312" width="260" height="86" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-25" value="PinBlueCallBack callBack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-24">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-25" value="PinBlueCallBack callBack" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-24" vertex="1">
           <mxGeometry y="26" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-24">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-24" vertex="1">
           <mxGeometry y="52" width="260" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-27" value="void onReceive(Context context, Intent intent)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="M-jWcVCXZFEZKFXjyS6u-24">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-27" value="void onReceive(Context context, Intent intent)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="M-jWcVCXZFEZKFXjyS6u-24" vertex="1">
           <mxGeometry y="60" width="260" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-28" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="M-jWcVCXZFEZKFXjyS6u-1" target="M-jWcVCXZFEZKFXjyS6u-20">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-28" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="M-jWcVCXZFEZKFXjyS6u-1" target="M-jWcVCXZFEZKFXjyS6u-20" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="250" y="240" as="sourcePoint" />
             <mxPoint x="410" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="M-jWcVCXZFEZKFXjyS6u-29" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" edge="1" parent="1" source="M-jWcVCXZFEZKFXjyS6u-1" target="M-jWcVCXZFEZKFXjyS6u-24">
+        <mxCell id="M-jWcVCXZFEZKFXjyS6u-29" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;" parent="1" source="M-jWcVCXZFEZKFXjyS6u-1" target="M-jWcVCXZFEZKFXjyS6u-24" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="220" y="240" as="sourcePoint" />
             <mxPoint x="420" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-1" value="BluetoothSocketUtils" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="420" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-2" value="BluetoothAdapter mBluetoothAdapter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="26" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="52" width="420" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-4" value="void setBluetoothName(String name)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="60" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-5" value="void setDiscoverableTimeout(int timeout)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="86" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-6" value="boolean isBlueEnable()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="112" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-7" value="boolean isSupportBlue()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="138" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-8" value="void connect(BluetoothDevice device, ConnectBlueCallBack callBack)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="164" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-9" value="String getBluetoothName()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="190" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-10" value="String getAddress()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry y="216" width="420" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="say96UhuK-gsWxpFCwGg-12" target="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-12" value="蓝牙socket工具类" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="100" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="say96UhuK-gsWxpFCwGg-14" value="&lt;br&gt;" style="endArrow=open;endSize=12;dashed=1;html=1;entryX=0.864;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="say96UhuK-gsWxpFCwGg-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="560" y="30" as="sourcePoint" />
+            <mxPoint x="720" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="683" y="30" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
