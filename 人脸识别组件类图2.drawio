@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-04T02:07:14.098Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jDjgn9_fNTosNMpETD4N" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-04T02:10:49.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="O8-bie7dxiiFUKAJ2q1P" version="13.10.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="334.5" y="210" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-2" value="CameraHelper" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="380" width="529" height="290" as="geometry" />
+          <mxGeometry x="180" y="380" width="529" height="316" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-3" value="Camera mCamera" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
           <mxGeometry y="26" width="529" height="26" as="geometry" />
@@ -22,26 +22,29 @@
         <mxCell id="D0pM8Ozt61VsWx_AugoM-6" value="Camera.Size previewSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
           <mxGeometry y="104" width="529" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-36" value="CameraListener cameraListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
+          <mxGeometry y="130" width="529" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
-          <mxGeometry y="130" width="529" height="8" as="geometry" />
+          <mxGeometry y="156" width="529" height="8" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-11" value="void init()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
-          <mxGeometry y="138" width="529" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="D0pM8Ozt61VsWx_AugoM-12" value="void start()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
           <mxGeometry y="164" width="529" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="D0pM8Ozt61VsWx_AugoM-13" value="int getCameraOri(int rotation)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-12" value="void start()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
           <mxGeometry y="190" width="529" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="D0pM8Ozt61VsWx_AugoM-14" value="void stop()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-13" value="int getCameraOri(int rotation)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
           <mxGeometry y="216" width="529" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="D0pM8Ozt61VsWx_AugoM-15" value="void release()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-14" value="void stop()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
           <mxGeometry y="242" width="529" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-15" value="void release()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
+          <mxGeometry y="268" width="529" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-16" value="Camera.Size getBestSupportedSize(List&lt;Camera.Size&gt; sizes, Point previewViewSize)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-2">
-          <mxGeometry y="268" width="529" height="22" as="geometry" />
+          <mxGeometry y="294" width="529" height="22" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-17" value="相机辅助类" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="280" width="120" height="60" as="geometry" />
@@ -59,40 +62,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-20" value="Builder" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="180" y="835" width="339" height="294" as="geometry" />
+          <mxGeometry x="180" y="835" width="290" height="294" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-21" value="View previewDisplayView" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="26" width="339" height="26" as="geometry" />
+          <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-22" value="boolean isMirror" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="52" width="339" height="26" as="geometry" />
+          <mxGeometry y="52" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-23" value="Integer specificCameraId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="78" width="339" height="26" as="geometry" />
+          <mxGeometry y="78" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-24" value="CameraListener cameraListener" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="104" width="339" height="26" as="geometry" />
+          <mxGeometry y="104" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-25" value="Point previewViewSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="130" width="339" height="26" as="geometry" />
+          <mxGeometry y="130" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-26" value="int rotation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="156" width="339" height="26" as="geometry" />
+          <mxGeometry y="156" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-27" value="Point previewSize" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="182" width="339" height="26" as="geometry" />
+          <mxGeometry y="182" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-28" value="int additionalRotation" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="208" width="339" height="26" as="geometry" />
+          <mxGeometry y="208" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="234" width="339" height="8" as="geometry" />
+          <mxGeometry y="234" width="290" height="8" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-30" value="Builder previewOn(View val)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="242" width="339" height="26" as="geometry" />
+          <mxGeometry y="242" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-35" value="CameraHelper build()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="D0pM8Ozt61VsWx_AugoM-20">
-          <mxGeometry y="268" width="339" height="26" as="geometry" />
+          <mxGeometry y="268" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="D0pM8Ozt61VsWx_AugoM-31" value="相机辅助类建造者" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="740" width="120" height="60" as="geometry" />
@@ -107,6 +110,24 @@
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="420" y="730" as="sourcePoint" />
             <mxPoint x="580" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-37" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CameraListener&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void onCameraOpened(Camera camera, int cameraId, int displayOrientation, boolean isMirror)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void onPreview(byte[] data, Camera camera)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void onCameraClosed()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void onCameraError(Exception e)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void onCameraConfigurationChanged(int cameraID, int displayOrientation)&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="835" width="535.5" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-38" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D0pM8Ozt61VsWx_AugoM-2" target="D0pM8Ozt61VsWx_AugoM-37">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="490" y="770" as="sourcePoint" />
+            <mxPoint x="650" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-39" value="相机监听器" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="935.5" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D0pM8Ozt61VsWx_AugoM-40" value="" style="endArrow=none;dashed=1;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="D0pM8Ozt61VsWx_AugoM-39" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="995.5" y="835" as="sourcePoint" />
+            <mxPoint x="1025.5" y="815" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
