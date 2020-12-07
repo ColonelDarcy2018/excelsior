@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-07T02:46:54.622Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="jek9jU7KfCRo_6VseGw-" version="13.10.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-07T02:48:08.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="NxI8UKJuGTo4Y4nhrRFX" version="13.10.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1673" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -106,9 +106,6 @@
         <mxCell id="xO4IFPJXhsTj8Eo80LVw-42" value="XTabBottom容器控件" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="xO4IFPJXhsTj8Eo80LVw-44" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IXTabLayout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Tab findTab(@NonNull D data)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void addTabSelectedChangeListener(OnTabSelectedListener&amp;lt;D&amp;gt; listener)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void defaultSelected(@NonNull D defaultInfo)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void inflateInfo(@NonNull List&amp;lt;D&amp;gt; infoList)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="580" y="453" width="410" height="132" as="geometry" />
-        </mxCell>
         <mxCell id="xO4IFPJXhsTj8Eo80LVw-45" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="xO4IFPJXhsTj8Eo80LVw-29" target="xO4IFPJXhsTj8Eo80LVw-44">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="620" y="410" as="sourcePoint" />
@@ -150,6 +147,15 @@
         </mxCell>
         <mxCell id="xO4IFPJXhsTj8Eo80LVw-54" value="Tab被选中的回调" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="750.5" y="-30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xO4IFPJXhsTj8Eo80LVw-57" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="580" y="440" width="410" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="xO4IFPJXhsTj8Eo80LVw-44" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;IXTabLayout&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;Tab findTab(@NonNull D data)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void addTabSelectedChangeListener(OnTabSelectedListener&amp;lt;D&amp;gt; listener)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void defaultSelected(@NonNull D defaultInfo)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;void inflateInfo(@NonNull List&amp;lt;D&amp;gt; infoList)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="xO4IFPJXhsTj8Eo80LVw-57">
+          <mxGeometry y="13" width="410" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="xO4IFPJXhsTj8Eo80LVw-56" value="Tab extends ViewGroup,D" style="fontStyle=0;dashed=1;" vertex="1" parent="xO4IFPJXhsTj8Eo80LVw-57">
+          <mxGeometry x="270" width="140" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
