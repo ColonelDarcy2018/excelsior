@@ -1,14 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2020-12-10T05:29:40.299Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ZfsBL4Yo3XBoSAZ6y_pH" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-10T05:50:25.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pnKKAbJlqHOsLvAhEM46" version="13.11.0" type="github">
   <diagram id="Mj7dho6MNc0hiOWBvYqV" name="Page-1">
-    <mxGraphModel dx="677" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="uFIf6QSWMpYLpyPhZE5v-20" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 17px&quot;&gt;需求规格说明&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#277116;fillColor=#60A337;fontSize=17;strokeColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="240" y="160" width="160" height="40" as="geometry" />
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-21" target="uFIf6QSWMpYLpyPhZE5v-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="180" />
+              <mxPoint x="510" y="180" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="uFIf6QSWMpYLpyPhZE5v-21" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 17px&quot;&gt;软件研制任务书&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#277116;fillColor=#60A337;fontSize=17;strokeColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="240" y="240" width="160" height="40" as="geometry" />
+          <mxGeometry x="350" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-40" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-22" target="uFIf6QSWMpYLpyPhZE5v-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-22" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 17px&quot;&gt;需求规格说明&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#277116;fillColor=#60A337;fontSize=17;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="430" y="260" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#60A337;strokeWidth=3;strokeColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-23" target="uFIf6QSWMpYLpyPhZE5v-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-23" value="软件系统分析与设计" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#60A337;strokeWidth=3;dashed=1;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="550" y="10" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-25" target="uFIf6QSWMpYLpyPhZE5v-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="180" />
+              <mxPoint x="510" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-33" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-25" target="uFIf6QSWMpYLpyPhZE5v-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-25" target="uFIf6QSWMpYLpyPhZE5v-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-25" value="系统设计说明" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="550" y="100" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-29" value="细化、确定被开发软件的功能、性能、接口、可靠性、安全性以及运行环境等要求" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-30" target="uFIf6QSWMpYLpyPhZE5v-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-30" value="系统级安全性要求建立追踪关系" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-36" value="设计软件的结构，设计全局数据库和数据结构" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-39" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-37" target="uFIf6QSWMpYLpyPhZE5v-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-37" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 17px&quot;&gt;软件概要设计&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#277116;fillColor=#60A337;fontSize=17;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="430" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-44" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-38" target="uFIf6QSWMpYLpyPhZE5v-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-38" value="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 17px&quot;&gt;软件详细设计&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#277116;fillColor=#60A337;fontSize=17;strokeColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-41" value="对概要设计中产生的单元描述程序算法、接口、数据结构和数据库详细设计（若需要），编写软件详细设计说明，详细程度应达到根据详细设计说明能够进行软件实现" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="520" y="430" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-46" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-42" target="uFIf6QSWMpYLpyPhZE5v-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-42" value="软件编码" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#60A337;strokeWidth=3;dashed=1;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="430" y="620" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-49" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-45" target="uFIf6QSWMpYLpyPhZE5v-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-45" value="软件单元测试" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#60A337;strokeWidth=3;dashed=1;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="430" y="740" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-50" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;strokeColor=#60A337;strokeWidth=3;fontSize=17;fontColor=#60A337;" edge="1" parent="1" source="uFIf6QSWMpYLpyPhZE5v-47" target="uFIf6QSWMpYLpyPhZE5v-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-47" value="软件集成和集成测试" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#60A337;strokeWidth=3;dashed=1;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="430" y="860" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uFIf6QSWMpYLpyPhZE5v-48" value="软件配置项合格性测试" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#60A337;strokeWidth=3;dashed=1;fontSize=17;fontColor=#60A337;" vertex="1" parent="1">
+          <mxGeometry x="430" y="980" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
