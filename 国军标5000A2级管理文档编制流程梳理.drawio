@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T08:30:49.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="pXGACbGkooIClFeWgHqA" version="14.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-17T08:33:01.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="0iL2zGGfXjYC8ZfRh5DY" version="14.0.3" type="github">
   <diagram id="piHKIUo1fMsEEpTTjODf" name="Page-1">
-    <mxGraphModel dx="6611" dy="-93" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3858" dy="-1590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1377,11 +1377,17 @@
         <mxCell id="-UTlFRMOnJpt8Rr766-G-185" value="软件源程序清单" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="780" y="6987" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-UTlFRMOnJpt8Rr766-G-186" value="软件单元测试报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="926.5" y="6987" width="120" height="30" as="geometry" />
+        <mxCell id="-UTlFRMOnJpt8Rr766-G-186" value="配置项测试报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="6990" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-UTlFRMOnJpt8Rr766-G-187" value="软件集成和集成测试报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1080" y="6987" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTlFRMOnJpt8Rr766-G-190" value="验收评审" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="7002" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-UTlFRMOnJpt8Rr766-G-191" value="验收报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="7002" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
