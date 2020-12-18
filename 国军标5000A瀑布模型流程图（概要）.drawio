@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T02:46:27.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4arlok2RaE5OvIva4SiY" version="14.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-18T02:57:15.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="DVmUjwF32Wu-5VKbnoEw" version="14.0.4" type="github">
   <diagram id="ZAhmIX6u1j8w8ivwmvWj" name="Page-1">
-    <mxGraphModel dx="2234" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="920" dy="528" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -245,7 +245,7 @@
           <mxGeometry x="460" y="250" width="80" height="15" as="geometry" />
         </mxCell>
         <mxCell id="NuKfDFSMR3lukto8AMIW-175" value="需求理解与承诺" style="rounded=0;fontSize=10;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
-          <mxGeometry x="687" y="250" width="80" height="15" as="geometry" />
+          <mxGeometry x="687" y="271.5" width="80" height="15" as="geometry" />
         </mxCell>
         <mxCell id="NuKfDFSMR3lukto8AMIW-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;" edge="1" parent="NuKfDFSMR3lukto8AMIW-170" source="NuKfDFSMR3lukto8AMIW-175" target="NuKfDFSMR3lukto8AMIW-175">
           <mxGeometry relative="1" as="geometry" />
@@ -254,7 +254,7 @@
           <mxGeometry x="910" y="240" width="80" height="15" as="geometry" />
         </mxCell>
         <mxCell id="NuKfDFSMR3lukto8AMIW-178" value="管理需求更改" style="rounded=0;fontSize=10;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
-          <mxGeometry x="687" y="270" width="80" height="15" as="geometry" />
+          <mxGeometry x="687" y="250" width="80" height="15" as="geometry" />
         </mxCell>
         <mxCell id="NuKfDFSMR3lukto8AMIW-262" value="维护需求的双向可追溯性" style="rounded=0;fontSize=10;whiteSpace=wrap;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
           <mxGeometry x="910" y="262.5" width="80" height="30" as="geometry" />
@@ -528,6 +528,18 @@
         </mxCell>
         <mxCell id="NuKfDFSMR3lukto8AMIW-597" value="软件验收与移交" style="rounded=0;fontSize=10;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
           <mxGeometry x="1610" y="130" width="80" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="NuKfDFSMR3lukto8AMIW-598" value="需求理解与承诺" style="rounded=0;fontSize=10;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
+          <mxGeometry x="234" y="240" width="80" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="NuKfDFSMR3lukto8AMIW-599" value="软件研制任务书" style="shape=document;boundedLbl=1;fontSize=10;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
+          <mxGeometry x="350" y="130" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NuKfDFSMR3lukto8AMIW-776" value="需求规格说明" style="shape=document;boundedLbl=1;fontSize=10;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
+          <mxGeometry x="800" y="130" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NuKfDFSMR3lukto8AMIW-777" value="软件设计说明" style="shape=document;boundedLbl=1;fontSize=10;" vertex="1" parent="NuKfDFSMR3lukto8AMIW-170">
+          <mxGeometry x="1041" y="130" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
