@@ -1,1 +1,622 @@
-<mxfile host="app.diagrams.net" modified="2020-12-18T01:09:59.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" version="14.0.4" etag="bUNYsLj5db3-bqMcp7G1" type="github"><diagram id="RR08DsdC180f7Dzk00Nu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-18T01:10:19.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="u6b3EXTHjekp_DaruqkW" version="14.0.4" type="github">
+  <diagram id="RR08DsdC180f7Dzk00Nu" name="Page-1">
+    <mxGraphModel dx="5609" dy="-4049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-1" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1263.3300000000002" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-2" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-3" value="制定项目策划计划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="10150" width="40" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-4" value="管理需求更改" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="8060" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-5" value="项目初始估计" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="10320" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-6" value="初始策划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="10690" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-7" value="获得对计划的承诺" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="11060" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-8" value="项目详细估计" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="11430" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-9" value="项目详细策划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="11800" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-10" value="计划变更控制" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="12170" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-11" value="需求理解与承诺" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="7690" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-12" value="维护需求的双向可追溯性" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="8430" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-13" value="标识项目工作与需求之间的不一致性" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="8800" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-14" value="制定项目策划计划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="10150" width="40" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-15" value="国军标5000A 瀑布模型" style="strokeColor=#BAC8D3;fillColor=#23445D;fontSize=24;strokeWidth=2;fontFamily=Helvetica;html=1;fontColor=#FFFFFF;fontStyle=0;spacingBottom=8;spacingRight=0;spacingLeft=83;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="6870" width="5263.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-16" value="需求管理" style="strokeColor=#BAC8D3;fillColor=#23445D;fontSize=24;strokeWidth=2;horizontal=0;fontFamily=Helvetica;html=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="7320" width="50" height="1850" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-17" value="制定需求管理计划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="7320" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-18" value="v 1.0" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="6870" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-19" value="项目策划" style="strokeColor=#BAC8D3;fillColor=#23445D;fontSize=24;strokeWidth=2;horizontal=0;fontFamily=Helvetica;html=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1990" y="10150" width="50" height="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-20" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1910" y="6910" width="646.6666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-21" value="需求获取阶段" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="HalgLe6GMXWCfm-aGBtZ-20">
+          <mxGeometry width="646.6656362699642" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-22" value="项目策划阶段" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="HalgLe6GMXWCfm-aGBtZ-20">
+          <mxGeometry x="646.6656362699642" width="646.6656362699642" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-23" value="软件需求分析" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="HalgLe6GMXWCfm-aGBtZ-20">
+          <mxGeometry x="1293.3312725399282" width="646.6666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-24" value="软件设计" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="30.671272539928168" y="6910" width="646.6666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-25" value="编码实现和单元测试" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="677.3312725399282" y="6910" width="646.6666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-26" value="软件配置项测试" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1323.5012725399283" y="6910" width="646.6666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-27" value="软件验收" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1970.1712725399284" y="6910" width="646.6666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-28" value="软件维护" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=19;strokeWidth=2;fontFamily=Helvetica;html=1;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2616.8412725399285" y="6910" width="646.6666666666666" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-29" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="10150" width="646.67" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-30" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="10150" width="646.67" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-31" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="10320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-32" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.3300000000002" y="10690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-33" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="10320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-34" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="10690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-35" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="11060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-36" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="11060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-37" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="11430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-38" value="项目策划工作计划" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="10185" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-39" value="人员和进度安排等" style="rounded=1;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10180" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-40" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="11430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-41" value="&lt;p style=&quot;line-height: 120%; font-size: 12px;&quot;&gt;评审/会签相关计划&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-961.5" y="11200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-42" value="评审/会签意见表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="11130" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-43" value="修订后的计划" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;strokeWidth=3;dashed=1;strokeColor=#23445D;fillColor=none;fontColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="11220" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-44" value="软件开发计划" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-903.34" y="10890" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-45" value="修改相关计划" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="11130" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-46" value="协调工作与资源" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-938.5" y="11130" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-47" value="制定进度计划表" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10720" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-48" value="标识并分析项目风险" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10770" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-49" value="策划数据管理" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10820" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-50" value="策划项目资源" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10870" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-51" value="策划所需的知识和技能" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10920" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-52" value="制定相关方参与计划" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10970" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-53" value="制定进度计划表" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10720" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-54" value="项目初始估计表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-903.34" y="10520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-55" value="制定进度计划表" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10350" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-56" value="产品结构分解" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10400" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-57" value="估计规模和复杂度" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10450" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-58" value="定义生存周期阶段" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10500" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-59" value="建立顶层WBS" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10550" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-60" value="估计工作量" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10600" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-61" value="确定技术解决途径" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="10350" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-62" value="计划变更控制" style="rounded=1;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-867" y="11510" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-63" value="阶段WBS分解和工作量估计" style="rounded=0;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="11480" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-64" value="工作量估计的偏差&gt;30%" style="rhombus;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1013" y="11600" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-65" value="进度估计表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="11590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-66" value="WBS分解结果和工作量估计记录表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="11680" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-67" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="11800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-68" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="11800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-69" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="12170" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-70" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="12170" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-71" value="制定阶段详细进度计划" style="rounded=0;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="11860" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-72" value="进度的偏差&gt;30%" style="rhombus;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1006.67" y="11910" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-73" value="计划变更控制" style="rounded=1;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-863" y="11850" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-74" value="会签" style="rounded=0;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1001.5" y="12040" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-75" value="阶段进度计划表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="12020" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-76" value="制定项目策划计划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="12540" width="40" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-77" value="软件需求分析" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="12710" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-78" value="初始策划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="13080" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-79" value="获得对计划的承诺" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="13450" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-80" value="项目详细估计" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="13820" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-81" value="项目详细策划" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="14190" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-82" value="计划变更控制" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="14560" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-83" value="系统分析与设计" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=16;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="12540" width="40" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-84" value="生存周期主要活动" style="strokeColor=#BAC8D3;fillColor=#23445D;fontSize=24;strokeWidth=2;horizontal=0;fontFamily=Helvetica;html=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-1990" y="12540" width="50" height="2390" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-85" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="12540" width="646.67" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-86" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="12540" width="646.67" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-87" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="12710" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-88" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.3300000000002" y="13080" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-89" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="12710" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-90" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="13080" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-91" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="13450" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-92" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="13450" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-93" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="13820" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-94" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="13820" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-95" value="&lt;p style=&quot;line-height: 120%; font-size: 12px;&quot;&gt;评审/会签相关计划&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-961.5" y="13590" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-96" value="评审/会签意见表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="13520" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-97" value="修订后的计划" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;strokeWidth=3;dashed=1;strokeColor=#23445D;fillColor=none;fontColor=#23445D;" vertex="1" parent="1">
+          <mxGeometry x="-750" y="13610" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-98" value="软件开发计划" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-903.34" y="13280" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-99" value="修改相关计划" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="13520" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-100" value="协调工作与资源" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-938.5" y="13520" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-101" value="制定进度计划表" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="13110" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-102" value="标识并分析项目风险" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="13160" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-103" value="策划数据管理" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="13210" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-104" value="策划项目资源" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="13260" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-105" value="策划所需的知识和技能" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="13310" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-106" value="制定相关方参与计划" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="13360" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-107" value="制定进度计划表" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="13110" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-108" value="项目初始估计表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-903.34" y="12910" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-109" value="制定进度计划表" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="12740" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-110" value="产品结构分解" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="12790" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-111" value="估计规模和复杂度" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="12840" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-112" value="定义生存周期阶段" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="12890" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-113" value="建立顶层WBS" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="12940" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-114" value="估计工作量" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="12990" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-115" value="确定技术解决途径" style="rounded=0;fillColor=#23445D;fontSize=12;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="12740" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-116" value="计划变更控制" style="rounded=1;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-867" y="13900" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-117" value="阶段WBS分解和工作量估计" style="rounded=0;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="13870" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-118" value="工作量估计的偏差&gt;30%" style="rhombus;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1013" y="13990" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-119" value="进度估计表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="13980" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-120" value="WBS分解结果和工作量估计记录表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="14070" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-121" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="14190" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-122" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="14190" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-123" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1900" y="14560" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-124" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1253.33" y="14560" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-125" value="制定阶段详细进度计划" style="rounded=0;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="14250" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-126" value="进度的偏差&gt;30%" style="rhombus;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1006.67" y="14300" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-127" value="计划变更控制" style="rounded=1;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-863" y="14240" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-128" value="会签" style="rounded=0;fillColor=#23445D;fontSize=10;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1001.5" y="14430" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-129" value="阶段进度计划表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="14410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;fontColor=#23445D;" edge="1" parent="1" source="HalgLe6GMXWCfm-aGBtZ-131" target="HalgLe6GMXWCfm-aGBtZ-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-131" value="系统分析与设计" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="6986.5" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-132" value="生存周期活动" style="strokeColor=#BAC8D3;fillColor=#23445D;fontSize=24;strokeWidth=2;horizontal=0;fontFamily=Helvetica;html=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="-2000" y="6950" width="50" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-133" value="" style="strokeColor=#BAC8D3;fillColor=#5d7f99;fontSize=10;strokeWidth=2;horizontal=0;fontFamily=Helvetica;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-1950" y="6950" width="40" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-134" value="软件研制任务书" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1530" y="6984" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-135" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1263.33" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-136" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-137" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-138" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1263.3300000000002" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-139" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1263.33" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-140" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-141" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-142" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-1263.3300000000002" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-143" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1910" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-144" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-1263.33" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-145" value="定义系统需求" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="7020" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-146" value="软件系统危险分析" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="7060" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-147" value="划分并标识软件配置项" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="7100" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-148" value="确定配置项之间数据流、指令流、时序关系和接口信息协议" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="7140" width="127" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-149" value="提出软件配置项安全性需求" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1831.5" y="7210" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-150" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="30.009999999999764" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-151" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-616.6600000000001" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-152" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-616.6600000000001" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-153" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="30.00999999999999" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-154" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="30.009999999999764" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-155" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-616.6600000000001" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-156" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-616.6600000000001" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-157" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="30.00999999999999" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-158" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="30.009999999999764" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-159" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="-616.6600000000001" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-160" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="-616.6600000000001" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-161" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="30.00999999999999" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-162" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1323.4999999999998" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-163" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="676.8299999999999" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-164" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="676.8299999999999" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-165" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1323.5" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-166" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1323.4999999999998" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-167" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="676.8299999999999" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-168" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="676.8299999999999" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-169" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1323.5" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-170" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1323.4999999999998" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-171" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="676.8299999999999" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-172" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="676.8299999999999" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-173" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1323.5" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-174" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="2616.84" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-175" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1970.17" y="6950" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-176" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1970.17" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-177" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="2616.84" y="7320" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-178" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="2616.84" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-179" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1970.17" y="7690" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-180" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1970.17" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-181" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="2616.84" y="8060" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-182" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="2616.84" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-183" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=60;" vertex="1" parent="1">
+          <mxGeometry x="1970.17" y="8430" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-184" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1970.17" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-185" value="" style="strokeColor=#FFFFFF;fillColor=#BAC8D3;fontSize=18;strokeWidth=2;fontFamily=Helvetica;html=1;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="2616.84" y="8800" width="646.67" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-186" value="根据任务书分析细化软件各项需求并标识" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="6984" width="127" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-187" value="软件设计约束条件及准则" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="7085" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-188" value="分析和确定软件开发和运行环境" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-551.5" y="7035" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-189" value="安全性需求并标识" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="7122.5" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-190" value="建立追踪关系" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="7165" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-191" value="软件需求规格说明" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="6990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-192" value="软件概要设计说明" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="6987" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-193" value="软件详细设计说明" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="413" y="6987" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-194" value="软件源程序清单" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="780" y="6987" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-195" value="配置项测试报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="6990" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-196" value="软件集成和集成测试报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="6987" width="120" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-197" value="验收评审" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="2110" y="7002" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-198" value="验收报告" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;align=center;fillColor=#23445D;fontColor=#FFFFFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="7002" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-199" value="确定需求管理人员的职责" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1185" y="7410" width="140" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-200" value="确定合格的需求提供者" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1820" y="7360" width="127" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-201" value="确定需求管理所需的资源" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="7450" width="130" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-202" value="确定需求管理活动的时间节点" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1200" y="7490" width="170" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-203" value="文档化策划内容" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-1195" y="7540" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="HalgLe6GMXWCfm-aGBtZ-204" value="安全性需求并标识" style="rounded=0;fillColor=#23445D;strokeColor=none;strokeWidth=2;fontFamily=Helvetica;html=1;gradientColor=none;fontColor=#FFFFFF;sketch=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="7760" width="127" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
