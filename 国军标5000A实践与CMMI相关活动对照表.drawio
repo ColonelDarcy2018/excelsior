@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T07:47:37.468Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="t0Dpq8gFFTiRw7OPWVVQ" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T07:56:18.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="6Hrikb9uH95sH9foQ1sz" version="14.1.1" type="github">
   <diagram id="KZVADQ8c4VdHKTxfyuot" name="Page-1">
-    <mxGraphModel dx="2234" dy="1283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="447" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -300,6 +300,72 @@
         </mxCell>
         <mxCell id="-ht__sh_S9YxHwO8VVMU-1405" value="SP2.3 管理纠正措施" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1404">
           <mxGeometry width="110" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1425" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="334" y="670" width="126" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1426" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1425">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1427" value="SG1安排测量与分析活动" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;fontSize=8;fontStyle=1;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1426">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1428" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1425">
+          <mxGeometry y="22" width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1429" value="SP1.1 确定测量目标" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1428">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1430" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1425">
+          <mxGeometry y="44" width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1431" value="SP1.2 指明测量项" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1430">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1432" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1425">
+          <mxGeometry y="66" width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1433" value="SP1.3 指明数据采集和存储规程" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1432">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1434" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1425">
+          <mxGeometry y="88" width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1435" value="SP1.4指明分析规程" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1434">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1436" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="470" y="680.5" width="110" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1437" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1436">
+          <mxGeometry width="110" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1438" value="SG2提供测量结果" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;fontSize=8;fontStyle=1;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1437">
+          <mxGeometry width="110" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1439" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1436">
+          <mxGeometry y="18" width="110" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1440" value="SP2.1 采集测量数据" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1439">
+          <mxGeometry width="110" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1441" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1436">
+          <mxGeometry y="35" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1442" value="SP2.2 分析测量数据" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1441">
+          <mxGeometry width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1443" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1436">
+          <mxGeometry y="55" width="110" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1444" value="SP2.3 存储数据和结果" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1443">
+          <mxGeometry width="110" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1445" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1436">
+          <mxGeometry y="72" width="110" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="-ht__sh_S9YxHwO8VVMU-1446" value="SP2.4 交流结果" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1445">
+          <mxGeometry width="110" height="17" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
