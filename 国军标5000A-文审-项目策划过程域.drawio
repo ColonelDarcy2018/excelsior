@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-30T02:06:03.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="8tQO-2mqXMfms5Nm-IFW" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-30T02:06:44.615Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="IiCjZzT8wqWxgNrJT1Co" version="14.1.3" type="github">
   <diagram id="w8SpEJB-sEDBSY9oFkV7" name="Page-1">
-    <mxGraphModel dx="2782" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1944" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,6 +113,9 @@
         </mxCell>
         <mxCell id="Vag_nINS23XWTEaKlg8r-6" value="技术合同/协议" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;" vertex="1" parent="Btssx9xaQbp5NQotayz1-65">
           <mxGeometry x="23" y="34.01" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Btssx9xaQbp5NQotayz1-124" value="软件研制任务书" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;" parent="Btssx9xaQbp5NQotayz1-65" vertex="1">
+          <mxGeometry x="23" y="100" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zPj_kpgLHt92mjGpTAv6-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="Btssx9xaQbp5NQotayz1-1" source="zPj_kpgLHt92mjGpTAv6-32" target="zPj_kpgLHt92mjGpTAv6-39" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -428,9 +431,6 @@
             <mxPoint x="-600" y="980" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Btssx9xaQbp5NQotayz1-124" value="软件研制任务书" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-749" y="140" width="120" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="Vag_nINS23XWTEaKlg8r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Vag_nINS23XWTEaKlg8r-2" target="Btssx9xaQbp5NQotayz1-201">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -441,7 +441,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Btssx9xaQbp5NQotayz1-201" value="产品结构分解" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="-526" y="184" width="310" height="30" as="geometry" />
+          <mxGeometry x="-526" y="180" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Btssx9xaQbp5NQotayz1-202" value="估计规模和复杂度" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="-526" y="220" width="310" height="30" as="geometry" />
