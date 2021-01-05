@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-05T07:11:14.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="81WsFbl-x7PIY7pi2u3P" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-05T07:23:01.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="uL3bQ2KpRx9MARRC9wd1" version="14.1.8" type="github">
   <diagram id="bFNYf5g5ua2_N0QjlzBi" name="Page-1">
-    <mxGraphModel dx="2782" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2130" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
           <mxGeometry x="41" y="20" width="160" height="1250" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-20" value="阶段工作产品" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;" vertex="1" parent="qjKBD9P_O_JD6ae_mKQQ-19">
-          <mxGeometry x="23" y="534.16" width="120" height="30" as="geometry" />
+          <mxGeometry x="23" y="550" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-32" value="软件开发计划" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;" vertex="1" parent="qjKBD9P_O_JD6ae_mKQQ-19">
           <mxGeometry x="20" y="84.00999999999999" width="120" height="30" as="geometry" />
@@ -55,7 +55,7 @@
           <mxGeometry x="23" y="980" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-196" value="软件测量数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=12;" vertex="1" parent="qjKBD9P_O_JD6ae_mKQQ-19">
-          <mxGeometry x="23" y="1020" width="120" height="30" as="geometry" />
+          <mxGeometry x="23" y="1030" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-37" value="项目负责人" style="swimlane;html=1;startSize=20;dashed=1;" vertex="1" parent="qjKBD9P_O_JD6ae_mKQQ-1">
           <mxGeometry x="201" y="20" width="339" height="1250" as="geometry" />
@@ -79,7 +79,12 @@
           <mxGeometry x="21" y="150" width="119" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="qjKBD9P_O_JD6ae_mKQQ-37" source="qjKBD9P_O_JD6ae_mKQQ-160" target="qjKBD9P_O_JD6ae_mKQQ-162">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="189" y="305" />
+              <mxPoint x="189" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-164" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qjKBD9P_O_JD6ae_mKQQ-163">
           <mxGeometry x="-0.7274" y="4" relative="1" as="geometry">
@@ -103,7 +108,7 @@
           <mxGeometry x="21" y="280" width="119" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-162" value="阶段点" style="rhombus;whiteSpace=wrap;html=1;shadow=1;fontSize=12;" vertex="1" parent="qjKBD9P_O_JD6ae_mKQQ-37">
-          <mxGeometry x="149" y="360" width="119" height="50" as="geometry" />
+          <mxGeometry x="129" y="360" width="119" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-180" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="qjKBD9P_O_JD6ae_mKQQ-37" source="qjKBD9P_O_JD6ae_mKQQ-177" target="qjKBD9P_O_JD6ae_mKQQ-157">
           <mxGeometry relative="1" as="geometry" />
@@ -316,7 +321,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-124" value="召开单/双周例会" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-480" y="220" width="280" height="30" as="geometry" />
+          <mxGeometry x="-410" y="220" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qjKBD9P_O_JD6ae_mKQQ-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="qjKBD9P_O_JD6ae_mKQQ-32" target="qjKBD9P_O_JD6ae_mKQQ-83">
           <mxGeometry relative="1" as="geometry" />
@@ -347,9 +352,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-340" y="90" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-590" y="955" />
+              <mxPoint x="-590" y="935" />
               <mxPoint x="-590" y="90" />
-              <mxPoint x="-340" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
