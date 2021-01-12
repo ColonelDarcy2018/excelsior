@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T02:26:28.958Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="ui7lbXUTy_fdVKPmWlvS" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T02:20:20.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="rtwwwMdNYwNVEYzsIDf_" version="14.1.9" type="github">
   <diagram id="KZVADQ8c4VdHKTxfyuot" name="Page-1">
-    <mxGraphModel dx="447" dy="257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="539" dy="310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,10 +160,10 @@
         <mxCell id="-ht__sh_S9YxHwO8VVMU-1343" value="SP3.2 使工作与资源水平相协调" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" parent="-ht__sh_S9YxHwO8VVMU-1342" vertex="1">
           <mxGeometry width="90" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="bZw45Dl6m2qIWk2wwtFJ-1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="-ht__sh_S9YxHwO8VVMU-1337">
+        <mxCell id="bZw45Dl6m2qIWk2wwtFJ-1" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="-ht__sh_S9YxHwO8VVMU-1337" vertex="1">
           <mxGeometry y="39" width="90" height="13" as="geometry" />
         </mxCell>
-        <mxCell id="bZw45Dl6m2qIWk2wwtFJ-2" value="SP3.3 获得计划承诺" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="bZw45Dl6m2qIWk2wwtFJ-1">
+        <mxCell id="bZw45Dl6m2qIWk2wwtFJ-2" value="SP3.3 获得计划承诺" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" parent="bZw45Dl6m2qIWk2wwtFJ-1" vertex="1">
           <mxGeometry width="90" height="13" as="geometry" />
         </mxCell>
         <mxCell id="-ht__sh_S9YxHwO8VVMU-1354" value="" style="endArrow=none;html=1;strokeWidth=5;fontSize=20;" parent="1" edge="1">
@@ -372,6 +372,75 @@
         </mxCell>
         <mxCell id="-ht__sh_S9YxHwO8VVMU-1446" value="SP2.4 交流结果" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" parent="-ht__sh_S9YxHwO8VVMU-1445" vertex="1">
           <mxGeometry width="110" height="17" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-1" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="322" y="860" width="126" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-2" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-1">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-3" value="SG1 建立基线" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;fontSize=8;fontStyle=1;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="hsCgo_piEWOffydVuE26-2">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-4" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-1">
+          <mxGeometry y="22" width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-5" value="SP1.1 标识配置项" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="hsCgo_piEWOffydVuE26-4">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-6" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-1">
+          <mxGeometry y="44" width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-7" value="SP1.2 建立一个配置管理系统" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="hsCgo_piEWOffydVuE26-6">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-8" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-1">
+          <mxGeometry y="66" width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-9" value="SP1.3 生成或发布基线" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="hsCgo_piEWOffydVuE26-8">
+          <mxGeometry width="126" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-12" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="470" y="861" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-13" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-12">
+          <mxGeometry width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-14" value="SG2 跟踪和控制更改" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;fontSize=8;fontStyle=1;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="hsCgo_piEWOffydVuE26-13">
+          <mxGeometry width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-15" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-12">
+          <mxGeometry y="22" width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-16" value="SP2.1 跟踪更改申请" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="hsCgo_piEWOffydVuE26-15">
+          <mxGeometry width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-17" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-12">
+          <mxGeometry y="44" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-18" value="SP2.2 控制配置项" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="hsCgo_piEWOffydVuE26-17">
+          <mxGeometry width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-21" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="470" y="948" width="110" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-22" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-21">
+          <mxGeometry width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-23" value="SG3 建立完整性" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=#f5f5f5;top=0;left=0;bottom=0;right=0;fontSize=8;fontStyle=1;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="hsCgo_piEWOffydVuE26-22">
+          <mxGeometry width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-24" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-21">
+          <mxGeometry y="22" width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-25" value="SP3.1 建立配置管理记录" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="hsCgo_piEWOffydVuE26-24">
+          <mxGeometry width="110" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-26" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="hsCgo_piEWOffydVuE26-21">
+          <mxGeometry y="44" width="110" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="hsCgo_piEWOffydVuE26-27" value="SP3.2 执行配置审核" style="shape=partialRectangle;connectable=0;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;fontSize=6;" vertex="1" parent="hsCgo_piEWOffydVuE26-26">
+          <mxGeometry width="110" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
