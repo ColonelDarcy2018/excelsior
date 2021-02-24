@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-24T06:41:17.896Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7aAJlNQHojgtYWSa0_OY" version="14.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-24T06:41:44.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="7PMzLvPTtrJo7N47tA8v" version="14.2.7" type="github">
   <diagram id="BIFD0itbEsLKPEQYxmJw" name="Page-1">
     <mxGraphModel dx="1422" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
         <mxCell id="5naSUm5lGmLeOfdFWZ7L-169" value="需求状态跟踪表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;shadow=1;fontSize=12;" parent="5naSUm5lGmLeOfdFWZ7L-23" vertex="1">
           <mxGeometry x="25" y="597" width="120" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="5naSUm5lGmLeOfdFWZ7L-49" value="项目负责人" style="swimlane;html=1;startSize=20;dashed=1;" parent="5naSUm5lGmLeOfdFWZ7L-22" vertex="1">
+        <mxCell id="5naSUm5lGmLeOfdFWZ7L-49" value="项目软件负责人" style="swimlane;html=1;startSize=20;dashed=1;" parent="5naSUm5lGmLeOfdFWZ7L-22" vertex="1">
           <mxGeometry x="220" y="20" width="270" height="830" as="geometry" />
         </mxCell>
         <mxCell id="5naSUm5lGmLeOfdFWZ7L-172" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;endArrow=open;endFill=0;" parent="5naSUm5lGmLeOfdFWZ7L-49" source="5naSUm5lGmLeOfdFWZ7L-170" target="5naSUm5lGmLeOfdFWZ7L-171" edge="1">
