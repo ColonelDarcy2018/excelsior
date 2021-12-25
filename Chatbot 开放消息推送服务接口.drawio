@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-12-25T06:35:26.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.0.3" etag="FwwfZ8DJ9Wm4YJ9msGC8" type="github"><diagram id="IObnw8KR6ojOrPmEj_f_">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-25T07:04:06.092Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="cBul5h7KOO-dRpBZgWCG" version="16.0.3" type="github">
+  <diagram id="IObnw8KR6ojOrPmEj_f_" name="Page-1">
+    <mxGraphModel dx="1038" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9yelILd6DXBo7EK8Oy2U-1" target="9yelILd6DXBo7EK8Oy2U-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="140" />
+              <mxPoint x="500" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-14" value="请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9yelILd6DXBo7EK8Oy2U-7">
+          <mxGeometry x="-0.2042" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9yelILd6DXBo7EK8Oy2U-1" target="9yelILd6DXBo7EK8Oy2U-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-16" value="响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9yelILd6DXBo7EK8Oy2U-13">
+          <mxGeometry x="0.2649" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-1" value="开放平台，接口调用权限验证" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="364" y="120" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="9yelILd6DXBo7EK8Oy2U-3" target="9yelILd6DXBo7EK8Oy2U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-15" value="请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9yelILd6DXBo7EK8Oy2U-12">
+          <mxGeometry x="-0.2649" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-3" value="调用方" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="190" y="120" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="9yelILd6DXBo7EK8Oy2U-5" target="9yelILd6DXBo7EK8Oy2U-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-10" value="响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9yelILd6DXBo7EK8Oy2U-8">
+          <mxGeometry x="0.225" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-5" value="Chatbot 开放接口服务" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-17" value="RPA用户通过Chatbot组件配置推送消息所需参数" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-18" value="RPA应用底层携带用户token，请求Chatbot开放接口，消息推送成功" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="510" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9yelILd6DXBo7EK8Oy2U-19" value="Chatbot组件配置到自动化流程中，RPA应用执行流程" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="100" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
