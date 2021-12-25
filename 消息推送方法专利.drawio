@@ -1,1 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T07:41:56.693Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" version="16.0.3" etag="n02rftM4YCBRW60LGcBA" type="github"><diagram id="puBtt0DGaZ4iFp2Edivz">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-25T06:34:02.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="8o8_86IPn5rCb7hzhchN" version="16.0.3" type="github">
+  <diagram id="puBtt0DGaZ4iFp2Edivz" name="Page-1">
+    <mxGraphModel dx="1038" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7qE31D_4Yg0VL0Ifezq-1" target="W7qE31D_4Yg0VL0Ifezq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W7qE31D_4Yg0VL0Ifezq-3" target="W7qE31D_4Yg0VL0Ifezq-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-3" value="用户选择通过第三方登录Chatbot管理平台" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7qE31D_4Yg0VL0Ifezq-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7qE31D_4Yg0VL0Ifezq-6" target="W7qE31D_4Yg0VL0Ifezq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-6" value="RPA用户登陆&lt;br&gt;服务鉴权" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="330" y="210" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-9" value="提示失败信息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="466" y="230" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="W7qE31D_4Yg0VL0Ifezq-10" value="鉴权成功，返回token，成功登录Chatbot管理平台" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
