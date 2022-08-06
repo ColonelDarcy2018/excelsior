@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-06T08:31:07.004Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TxzWp4kVU4L09ayGGbYf" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-06T08:31:53.287Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="UZ_wsQeOSPWAxYMKBjqK" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1964" dy="753" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -150,9 +150,6 @@
         <mxCell id="9tMOyOh0k2Cmh3PsOHM6-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9tMOyOh0k2Cmh3PsOHM6-0" target="9tMOyOh0k2Cmh3PsOHM6-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9tMOyOh0k2Cmh3PsOHM6-48" value="&lt;span style=&quot;&quot;&gt;查询&lt;/span&gt;&lt;span style=&quot;&quot;&gt;Chatbot&lt;br&gt;本地用户表&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1330" y="800" width="120" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="9tMOyOh0k2Cmh3PsOHM6-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="9tMOyOh0k2Cmh3PsOHM6-52" target="9tMOyOh0k2Cmh3PsOHM6-63">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -194,24 +191,6 @@
         </mxCell>
         <mxCell id="9tMOyOh0k2Cmh3PsOHM6-69" value="访问RPA应用" style="fontStyle=0;fontSize=12;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="660" y="220" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="9tMOyOh0k2Cmh3PsOHM6-74" value="" style="fontStyle=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="180" width="240" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="9tMOyOh0k2Cmh3PsOHM6-75" value="聊天机器人RPA用户登陆模块" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="150" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9tMOyOh0k2Cmh3PsOHM6-76" value="" style="fontStyle=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1400" y="180" width="240" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="9tMOyOh0k2Cmh3PsOHM6-77" value="聊天机器人RPA回调接口" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1400" y="150" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9tMOyOh0k2Cmh3PsOHM6-78" value="" style="fontStyle=0;dashed=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="510" width="240" height="260" as="geometry" />
-        </mxCell>
-        <mxCell id="9tMOyOh0k2Cmh3PsOHM6-79" value="RPA应用" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="480" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
