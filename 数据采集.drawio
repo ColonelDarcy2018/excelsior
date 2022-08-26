@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T01:54:35.636Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fIAiTR30jZRFGcQn454v" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-26T03:37:39.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="x_OqEW6GxuVKU0VF_U_P" version="20.2.7" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
-    <mxGraphModel dx="1168" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2153" dy="3231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_178SI4n7Iu1sIU4JPuy-1" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="230" width="20" height="300" as="geometry" />
+          <mxGeometry x="-490" y="-290" width="20" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="_178SI4n7Iu1sIU4JPuy-2" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="230" width="100" height="300" as="geometry" />
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-2" value=":GuiOperator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-290" width="100" height="970" as="geometry" />
         </mxCell>
         <mxCell id="_178SI4n7Iu1sIU4JPuy-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;OverlayForm:Form&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="900" width="160" height="90" as="geometry" />
@@ -30,13 +30,202 @@
           <mxGeometry x="1700" y="90" width="260" height="210" as="geometry" />
         </mxCell>
         <mxCell id="_178SI4n7Iu1sIU4JPuy-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Plugin.GUI.Commons.IGuiOperator&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GuiOperators: List&amp;lt;IGuiOperator&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CollectDataBySelector(): List&amp;lt;List&amp;lt;string&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ CollectDataBySelector(): Type&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="440" width="250" height="210" as="geometry" />
+          <mxGeometry x="1330" y="340" width="250" height="210" as="geometry" />
         </mxCell>
         <mxCell id="_178SI4n7Iu1sIU4JPuy-13" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Plugin.Chrome.GuiOperator&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GuiOperators: List&amp;lt;IGuiOperator&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ CollectDataBySelector(ParamCollectDataBySelectorModel): List&amp;lt;List&amp;lt;string&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ CollectDataBySelector(): Type&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="720" width="620" height="320" as="geometry" />
+          <mxGeometry x="1340" y="720" width="500" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="_178SI4n7Iu1sIU4JPuy-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Plugin.Chrome.ChromeNode&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ GuiOperators: List&amp;lt;IGuiOperator&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ IsExecution():&amp;nbsp; void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ GetElementFromSelector(string selector,string cssSelector, bool is Move,bool is Highlighting): IGuiNode&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2120" y="720" width="620" height="320" as="geometry" />
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Plugin.Chrome.ChromeNode&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ chrome: Chrome&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ chromeTab: ChromeTab&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ chromeElement: ChromeElement&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ IsExecution():&amp;nbsp; void&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;+ GetElementFromSelector(string selector,string cssSelector, bool is Move,bool is Highlighting): IGuiNode&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2050" y="630" width="570" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-19" value=":ChromeNode" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="-290" width="100" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-19">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-19">
+          <mxGeometry x="45" y="300" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-33" value="GetElementFromSelector" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-32" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330.3333333333335" y="-110" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-34" value="node" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-32" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330.3333333333335" y="-34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-36" value="GetTableData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-35" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-330.3333333333335" y="10" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-37" value="string data&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-35" parent="1" target="_178SI4n7Iu1sIU4JPuy-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-280" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-38" value=":ChromeElement" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-290" width="100" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-38">
+          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-45" value="tab.Connection.Send" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-41" parent="_178SI4n7Iu1sIU4JPuy-38" source="_178SI4n7Iu1sIU4JPuy-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="340" />
+              <mxPoint x="80" y="370" />
+            </Array>
+            <mxPoint x="70" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-42" value="GetTableData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-41" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="30" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-43" value="string" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-41" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="106" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-52" value=":ChromeTab" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-290" width="100" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-52">
+          <mxGeometry x="45.33000000000004" y="560" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-56" value="QueryCollectionData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-55" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="270" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-57" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-55" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="346" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-58" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-2320" width="20" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-59" value=":GuiOperator" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-2320" width="100" height="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-60" value=":ChromeNode" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-2320" width="100" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-60">
+          <mxGeometry x="45" y="180" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-62" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-60">
+          <mxGeometry x="45" y="300" width="10" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-63" value="GetElementFromSelector" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-61" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1009.6666666666665" y="-2140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-64" value="node" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-61" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1009.6666666666665" y="-2064" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-65" value="GetTableData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-62" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1009.6666666666665" y="-2020" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-66" value="string data&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-62" target="_178SI4n7Iu1sIU4JPuy-59" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="-1906" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-67" value=":ChromeElement" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="-2320" width="100" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-67">
+          <mxGeometry x="45" y="320" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-69" value="tab.Connection.Send" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="_178SI4n7Iu1sIU4JPuy-67" source="_178SI4n7Iu1sIU4JPuy-68" target="_178SI4n7Iu1sIU4JPuy-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="340" />
+              <mxPoint x="80" y="370" />
+            </Array>
+            <mxPoint x="70" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-70" value="GetTableData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-68" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="-2000" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-71" value="string" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-68" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1220" y="-1924" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-72" value=":ChromeTab" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="-2320" width="100" height="970" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-72">
+          <mxGeometry x="45.33000000000004" y="560" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-74" value="QueryCollectionData" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="_178SI4n7Iu1sIU4JPuy-73" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="-1760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-75" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="_178SI4n7Iu1sIU4JPuy-73" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="-1684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-77" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Plugin.Chrome.ChromeTab&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ conn: IBrowserConnection&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ QueryCollectionData(string parentSelector,string selectorDataList): string&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2180" y="840" width="420" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-78" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;Plugin.Chrome.ChromeElement&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tabId: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ elementId: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ tab: ChromeTab&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ GetTableData(): string&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="980" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-80" value="Plugin.GUI.Commons.ParamCollectDataBySelectorModel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="2560" y="1250" width="360" height="30" as="geometry">
+            <mxRectangle x="2550" y="1250" width="370" height="286" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-81" value="+ WebData: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="26" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-82" value="+ Delay: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="52" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-83" value="+ ScrollVertical: int&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="78" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-89" value="+ PageCount: int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="104" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-90" value="+ TurnPageConfigType: TurnPageConfigType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="130" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-91" value="+ DataFilePath: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="156" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-92" value="+ IsTable: bool&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="182" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-93" value="+ SameParentsProps: List&lt;SelectorProps&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="208" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-94" value="+ SelectorDataList: List&lt;CollectData_SelectorData&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="234" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-95" value="+ ScrollDelay: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-80">
+          <mxGeometry y="260" width="370" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
