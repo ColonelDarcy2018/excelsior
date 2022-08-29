@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-26T10:07:10.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9jPXTmyyMq5s_Bp4vIPj" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-29T01:58:01.412Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="AaT_09Byb03sflMZRsS-" version="20.2.7" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
-    <mxGraphModel dx="2632" dy="3024" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2655" dy="3061" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -294,7 +294,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_178SI4n7Iu1sIU4JPuy-114" value="Plugin.GUI.DataCollection.ViewModels.MainWindowViewModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1210" width="410" height="138" as="geometry" />
+          <mxGeometry x="140" y="1230" width="410" height="138" as="geometry" />
         </mxCell>
         <mxCell id="_178SI4n7Iu1sIU4JPuy-115" value="+ IsDataValid:  bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-114">
           <mxGeometry y="26" width="410" height="26" as="geometry" />
@@ -312,7 +312,7 @@
           <mxGeometry y="112" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_178SI4n7Iu1sIU4JPuy-120" value="Plugin.GUI.Params.DataBuriedModel_DataCollect" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1450" width="370" height="104" as="geometry">
+          <mxGeometry x="140" y="1440" width="370" height="104" as="geometry">
             <mxRectangle x="900" y="1490" width="360" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -324,6 +324,45 @@
         </mxCell>
         <mxCell id="_178SI4n7Iu1sIU4JPuy-132" value="+ 开始时间（前端处理）start_time: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-120">
           <mxGeometry y="78" width="370" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-133" value="Plugin.GUI.DataCollection.ViewModels.DataGridViewModel" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1370" width="410" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-134" value="+ IsDataValid:  bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-133">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-135" value="+ CParamStartCollectElementCaptureModel:  ParamStartCollectElementCaptureModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-133">
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-136" value="+ DataCollectConfigurationModel:  RetDataCollectConfigurationModel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-133">
+          <mxGeometry y="78" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-137" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-133">
+          <mxGeometry y="104" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-138" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-133">
+          <mxGeometry y="112" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-139" value="Plugin.GUI.DataCollection.ViewModels.ModelBase" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1210" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-140" value="+ PropertyChanged:  event  PropertyChangedEventHandler" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-139">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-143" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-139">
+          <mxGeometry y="52" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-145" value="Plugin.GUI.DataCollection.ViewModels.DelegateCommand" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1020" width="410" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-146" value="+ excuteAction:  Action" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-145">
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-149" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-145">
+          <mxGeometry y="52" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="_178SI4n7Iu1sIU4JPuy-150" value="+ excute(object parameter): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=9;" vertex="1" parent="_178SI4n7Iu1sIU4JPuy-145">
+          <mxGeometry y="60" width="410" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
