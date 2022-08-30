@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T10:17:22.829Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WOPDk_-qBpNM_8ESr4iC" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T10:19:21.659Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KMgf4_0y3gAAwH8b8LUB" version="20.2.7" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
     <mxGraphModel dx="2689" dy="3032" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -440,16 +440,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-17" value="DataCollectingManager.&lt;br&gt;&lt;div&gt;&amp;nbsp;StartElementCapture()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="2156" width="200" height="60" as="geometry" />
+          <mxGeometry x="-760" y="2170" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-18" value="MainWindowViewModel.&lt;br&gt;&lt;div&gt;&amp;nbsp;DealCaptureResult_DataCollectingElement()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="2440" width="270" height="60" as="geometry" />
+          <mxGeometry x="-760" y="2870" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-19" value="数据采集拾取逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="2030" width="130" height="30" as="geometry" />
+          <mxGeometry x="-760" y="2110" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="phZiyfp4Owrx0l6uCUyv-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="phZiyfp4Owrx0l6uCUyv-20" target="phZiyfp4Owrx0l6uCUyv-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-20" value="DataCollectOverlayWnd.&lt;br&gt;&lt;div&gt;&amp;nbsp;StartCapture()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-760" y="2256" width="200" height="60" as="geometry" />
+          <mxGeometry x="-760" y="2270" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-21" value="Plugin.GUI.Commons.ParamStartCollectElementCaptureModel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="2030" width="370" height="286" as="geometry">
@@ -490,13 +493,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-33" value="MainWindowViewModel.&lt;br&gt;&lt;div&gt;&amp;nbsp;DealCaptureResult()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="2338" width="270" height="60" as="geometry" />
+          <mxGeometry x="-760" y="2768" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="phZiyfp4Owrx0l6uCUyv-35" target="phZiyfp4Owrx0l6uCUyv-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-35" value="DataCollectOverlayWnd.&lt;br&gt;&lt;div&gt;&amp;nbsp;StopHighlight()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="2240" width="270" height="60" as="geometry" />
+          <mxGeometry x="-760" y="2670" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="phZiyfp4Owrx0l6uCUyv-37" target="phZiyfp4Owrx0l6uCUyv-35">
           <mxGeometry relative="1" as="geometry" />
@@ -505,13 +508,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-37" value="DataCollectOverlayWnd.&lt;br&gt;&lt;div&gt;&amp;nbsp;DoSelect()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="2140" width="270" height="60" as="geometry" />
+          <mxGeometry x="-760" y="2570" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="phZiyfp4Owrx0l6uCUyv-39" target="phZiyfp4Owrx0l6uCUyv-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-39" value="DataCollectOverlayWnd.&lt;br&gt;&lt;div&gt;&amp;nbsp;DataCollectOverlayWnd_MouseClickExt()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="2040" width="270" height="60" as="geometry" />
+          <mxGeometry x="-760" y="2470" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="phZiyfp4Owrx0l6uCUyv-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="phZiyfp4Owrx0l6uCUyv-43" target="phZiyfp4Owrx0l6uCUyv-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="phZiyfp4Owrx0l6uCUyv-43" value="DataCollectOverlayWnd.&lt;br&gt;&lt;div&gt;&amp;nbsp;InstallHook()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="2370" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
