@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T02:50:53.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5v1PLmUSKOYdw2NBhw_u" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-01T11:41:00.217Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="FGdRogJcpiJIZuA1iDVB" version="20.2.7" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
     <mxGraphModel dx="2709" dy="3006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -639,6 +639,54 @@
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=9;" vertex="1" parent="96yUnF7kAp2pRX79rx8w-55">
           <mxGeometry y="156" width="410" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-62" value="判断是否为table逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-735" y="3125" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-63" value="js: elements.getIsTableName(tabId,&amp;nbsp; elementId)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="3280" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-64" value="ChromeTab.GetIsTableName(elementId : string)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="3180" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-65" value="数据采集元素包装逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="3175" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-66" value="判断是否为table元素，若为table元素，使用特殊的element.TableSelector，否则使用&lt;br&gt;element.Selector" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="3230" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-67" value="删除selector内的“ tab ” 属性" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="3350" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-68" target="96yUnF7kAp2pRX79rx8w-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-68" value="处理拾取结果的回调&lt;br&gt;MainWindowViewModel.DealCaptureResult(DataCollectOverlayWnd)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="414" y="3400" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-69" target="96yUnF7kAp2pRX79rx8w-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-69" value="鼠标左键点击选择元素回调方法&lt;br&gt;DataCollectOverlayWnd.DoSelect()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="414" y="2960" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-70" target="96yUnF7kAp2pRX79rx8w-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-70" value="元素选择器处理1&lt;br&gt;DataCollectOverlayWnd.UIElement_OnSelected(GuiElement)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="414" y="3080" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-73" target="96yUnF7kAp2pRX79rx8w-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-73" value="元素选择器处理2&lt;br&gt;DataCollectOverlayWnd .ProcessSelector(GuiElement,List&amp;lt;SelectorProps&amp;gt;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="414" y="3180" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-75" value="数据保存到DataCollectOverlayWnd.RetCaptureModel中" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="414" y="3280" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96yUnF7kAp2pRX79rx8w-77" value="从DataCollectOverlayWnd.RetCaptureModel中获取拾取到的元素信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="414" y="3520" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
