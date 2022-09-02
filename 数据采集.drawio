@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T05:35:59.518Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="5EnA5KPWjRT09s_X_dR6" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T05:49:42.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="mdtZNryv9qmY32nmtg50" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
     <mxGraphModel dx="3037" dy="2888" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -703,8 +703,8 @@
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectOverlayWnd.DoSelect()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;首次数据采集拾取时，判断是否是表格&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;this.IsUseTableElement = ElementIsTable(element)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-1179.25" y="3460" width="378.5" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeTab.GetIsTableName(string elementId)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;conn.Send(&quot;elements.getIsTableName&quot;, new JObject { { &quot;tabId&quot;, tabId }, { &quot;elementId&quot;, elementId } })&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="-1173.5" y="3620" width="378.5" height="80" as="geometry" />
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Chrome.GetIsTableName&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;tbUid = chromeTab.GetIsTableName(elementId);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return !string.IsNullOrEmpty(tbUid);&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeTab.GetIsTableName(string elementId):&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;conn.Send(&quot;elements.getIsTableName&quot;, new JObject { { &quot;tabId&quot;, tabId }, { &quot;elementId&quot;, elementId } })&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;return result.Result.Content.ToString();&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-1173.5" y="3620" width="413.5" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
