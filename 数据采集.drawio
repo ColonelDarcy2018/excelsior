@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T09:46:23.843Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="uczD7r2RgGq5I3esuKKr" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-02T09:56:19.724Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="3XYeZSvYHNLKNM0XV_B8" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
     <mxGraphModel dx="2621" dy="2839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -779,25 +779,43 @@
           <mxGeometry x="910" y="3441" width="490" height="370" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="910" y="3870" width="640" height="790" as="geometry" />
+          <mxGeometry x="910" y="3870" width="640" height="550" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-53" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;关键逻辑:&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeNode.&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;BuilidCollectDataSelector(paramModel.OriginalSelector, similarSelectors)：&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="3870" width="450" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-60" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-54" target="KSkUeYs4AEQHfqgUuqgt-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-54" value="originalSelectorPropsList//基础selector的副本，即原串副本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="3930" width="230" height="60" as="geometry" />
+          <mxGeometry x="970" y="3940" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-61" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-55" target="KSkUeYs4AEQHfqgUuqgt-56">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-55" value="//所有相似串的集合 List&amp;lt;string&amp;gt; structureSimilarSelectors转换成List&amp;lt;List&amp;lt;SelectorProps&amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;similarSelectorPropsLists" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="4030" width="230" height="60" as="geometry" />
+          <mxGeometry x="970" y="4032" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-56" target="KSkUeYs4AEQHfqgUuqgt-57">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-56" value="//移除所有节点层数不同的selector ，理论上是不存在的，只是个保险&lt;br&gt;similarSelectorPropsLists.&lt;br&gt;RemoveAll(sps =&amp;gt; sps.Count() != originalSelectorPropsList.Count())" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="4120" width="220" height="80" as="geometry" />
+          <mxGeometry x="970" y="4120" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-57" value="计算源串及相似串之间差异，注意源串只保留&quot;class&quot;, &quot;id&quot;, &quot;@index&quot;三个有效属性&lt;br&gt;差异值计算方法：&lt;br&gt;源串props与相似串props的name及value相等即算相同，差异数量=总数-相同数&lt;br&gt;代码例：originalSelectorPropsList[i].Props与similarSelectorPropsLists[j][i].Props对比" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="995" y="4260" width="275" height="120" as="geometry" />
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-57" target="KSkUeYs4AEQHfqgUuqgt-58">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-58" value="计算源串及相似串之间差异，注意源串只保留&quot;class&quot;, &quot;id&quot;, &quot;@index&quot;三个有效属性&lt;br&gt;差异值计算方法：&lt;br&gt;源串props与相似串props的name及value相等即算相同，差异数量=总数-相同数&lt;br&gt;代码例：originalSelectorPropsList[i].Props与similarSelectorPropsLists[j][i].Props对比" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="995" y="4440" width="275" height="120" as="geometry" />
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-57" value="计算源串及相似串之间差异，注意源串只保留&quot;class&quot;, &quot;id&quot;, &quot;@index&quot;三个有效属性&lt;br&gt;差异值计算方法：&lt;br&gt;源串props与相似串props的name及value相等即算相同，差异数量=总数-相同数&lt;br&gt;代码例：originalSelectorPropsList[i].Props与similarSelectorPropsLists[j][i].Props对比&lt;br&gt;找到与源串相似度最高的元素" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="4002" width="275" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-58" target="KSkUeYs4AEQHfqgUuqgt-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-58" value="使用完整的原串 与 最相似元素 &lt;br&gt;去异求同，尽可能多的保留相似属性&lt;br&gt;代码例：&lt;br&gt;&lt;div&gt;List&amp;lt;SelectorProps&amp;gt; similarSelectorPropsList = similarSelectorPropsLists[targetIndex];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return ChromeTab.&lt;/div&gt;&lt;div&gt;CompareBulidSimileSelector(originalSelector, similarSelectorPropsList);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1221" y="4207.5" width="315" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-59" value="返回相似属性值的List&amp;lt;SelectorProps&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="4260" width="200" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
