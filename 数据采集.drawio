@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-02T10:55:06.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="sb3rpxxP7Thgu63SL-m8" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-03T02:59:24.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="stE4SbYpb64HublCZXJV" version="20.2.7" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
-    <mxGraphModel dx="2434" dy="2742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2884" dy="3091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -646,7 +646,7 @@
         <mxCell id="96yUnF7kAp2pRX79rx8w-68" value="处理拾取结果的回调&lt;br&gt;MainWindowViewModel.DealCaptureResult(DataCollectOverlayWnd)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1060" y="3090" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-70" target="96yUnF7kAp2pRX79rx8w-73">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="96yUnF7kAp2pRX79rx8w-70" target="96yUnF7kAp2pRX79rx8w-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-70" value="元素选择器处理1&lt;br&gt;DataCollectOverlayWnd.UIElement_OnSelected(GuiElement)&lt;br&gt;1.判断元素是否为table元素，若是，使用element.TableSelector元素进行后续操作，若不是，使用element.Selector&lt;br&gt;2.开始处理selector信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
@@ -658,25 +658,25 @@
         <mxCell id="96yUnF7kAp2pRX79rx8w-77" value="从DataCollectOverlayWnd.RetCaptureModel中获取拾取到的元素信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1060" y="3200" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-2" target="KSkUeYs4AEQHfqgUuqgt-3">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-2" target="KSkUeYs4AEQHfqgUuqgt-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-2" value="MainWindowViewModel.StartCaptureCollectDataElement&lt;br&gt;判断是否为第一次拾取&lt;br&gt;第一次拾取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-2" value="MainWindowViewModel.StartCaptureCollectDataElement&lt;br&gt;判断是否为第一次拾取&lt;br&gt;第一次拾取" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1184.99" y="3095" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-3" target="KSkUeYs4AEQHfqgUuqgt-4">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-3" target="KSkUeYs4AEQHfqgUuqgt-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectingManager.&lt;br&gt;StartElementCapture(ParamStartCollectElementCaptureModel)&lt;br&gt;展示高亮蒙层&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectingManager.&lt;br&gt;StartElementCapture(ParamStartCollectElementCaptureModel)&lt;br&gt;展示高亮蒙层&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1179.62" y="3200" width="379.25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-4" target="KSkUeYs4AEQHfqgUuqgt-5">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-4" target="KSkUeYs4AEQHfqgUuqgt-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectOverlayWnd.StartCapture(paramModel)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;开启拾取线程，拾取准备GuiElement.ReadyToCapture()&lt;br&gt;&lt;/span&gt;注册键盘鼠标钩子事件InstallHook" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-4" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectOverlayWnd.StartCapture(paramModel)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;开启拾取线程，拾取准备GuiElement.ReadyToCapture()&lt;br&gt;&lt;/span&gt;注册键盘鼠标钩子事件InstallHook" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1180" y="3330" width="378.5" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-5" target="96yUnF7kAp2pRX79rx8w-70">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-5" target="96yUnF7kAp2pRX79rx8w-70" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-750" y="3500" />
@@ -684,138 +684,153 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectOverlayWnd.DoSelect()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;1.首次数据采集拾取时，判断是否是表格，并将结果保存在&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;this.IsUseTableElement = ElementIsTable(element)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2.元素截图逻辑&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3.调用UIElement_OnSelected(element)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-5" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectOverlayWnd.DoSelect()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;1.首次数据采集拾取时，判断是否是表格，并将结果保存在&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;this.IsUseTableElement = ElementIsTable(element)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2.元素截图逻辑&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3.调用UIElement_OnSelected(element)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1180" y="3460" width="379.25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;关键逻辑：判断是否为table元素：&lt;br&gt;通过拾取到的元素的userDefinedID查询元素，判断是否为table元素&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Chrome.GetIsTableName&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;tbUid = chromeTab.GetIsTableName(elementId);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return !string.IsNullOrEmpty(tbUid);&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeTab.GetIsTableName(string elementId):&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;conn.Send(&quot;elements.getIsTableName&quot;, new JObject { { &quot;tabId&quot;, tabId }, { &quot;elementId&quot;, elementId } })&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;return result.Result.Content.ToString();&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-6" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;关键逻辑：判断是否为table元素：&lt;br&gt;通过拾取到的元素的userDefinedID查询元素，判断是否为table元素&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Chrome.GetIsTableName&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;tbUid = chromeTab.GetIsTableName(elementId);&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return !string.IsNullOrEmpty(tbUid);&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeTab.GetIsTableName(string elementId):&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;conn.Send(&quot;elements.getIsTableName&quot;, new JObject { { &quot;tabId&quot;, tabId }, { &quot;elementId&quot;, elementId } })&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;return result.Result.Content.ToString();&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-1650" y="3410" width="413.5" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="KSkUeYs4AEQHfqgUuqgt-6">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="KSkUeYs4AEQHfqgUuqgt-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1180" y="3500" as="sourcePoint" />
             <mxPoint x="-1280" y="3500" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-16" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;关键逻辑：&lt;br&gt;1.根据tab标签页元素获取当前页Url及title信息&lt;br&gt;var selectorObject = common.Selector.ToObject&amp;lt;List&amp;lt;SelectorProps&amp;gt;&amp;gt;()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;var tabProps = selectorObject.Find(o =&amp;gt; o.Name == “tab”);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;selectorObject.Remove(tabProps)&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;var title = tabProps.Props.Find(p =&amp;gt; p.Name == &quot;title&quot;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; var url = tabProps.Props.Find(p =&amp;gt; p.Name == &quot;url&quot;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2.判断是否为相同页面逻辑，先判断title，再判断url，若页面变动则提示错误&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3. 调用&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ProcessSelector(element, selectorObject);&lt;/span&gt;&lt;/div&gt;//处理select 得到只有tag的selector&lt;br&gt;4.调用GetNextElementBuildSelector(element);&amp;nbsp;//获取下一页元素" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-16" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;关键逻辑：&lt;br&gt;1.根据tab标签页元素获取当前页Url及title信息&lt;br&gt;var selectorObject = common.Selector.ToObject&amp;lt;List&amp;lt;SelectorProps&amp;gt;&amp;gt;()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;var tabProps = selectorObject.Find(o =&amp;gt; o.Name == “tab”);&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;selectorObject.Remove(tabProps)&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;var title = tabProps.Props.Find(p =&amp;gt; p.Name == &quot;title&quot;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; var url = tabProps.Props.Find(p =&amp;gt; p.Name == &quot;url&quot;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;2.判断是否为相同页面逻辑，先判断title，再判断url，若页面变动则提示错误&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3. 调用&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;ProcessSelector(element, selectorObject);&lt;/span&gt;&lt;/div&gt;//处理select 得到只有tag的selector&lt;br&gt;4.调用GetNextElementBuildSelector(element);&amp;nbsp;//获取下一页元素" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-245" y="3050.5" width="415" height="187.5" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="KSkUeYs4AEQHfqgUuqgt-16" parent="1" source="96yUnF7kAp2pRX79rx8w-70">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="96yUnF7kAp2pRX79rx8w-70" target="KSkUeYs4AEQHfqgUuqgt-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230.00000000000023" y="3180" as="sourcePoint" />
             <mxPoint x="130" y="3180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-18" value="SelectorProps" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-18" value="SelectorProps" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="3077.5" width="150" height="130" as="geometry">
             <mxRectangle x="1050" y="1880" width="360" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-24" value="+ name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-18">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-24" value="+ name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-18" vertex="1">
           <mxGeometry y="26" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-27" value="+ type: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-18">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-27" value="+ type: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-18" vertex="1">
           <mxGeometry y="52" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-28" value="+ accurate: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-18">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-28" value="+ accurate: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-18" vertex="1">
           <mxGeometry y="78" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-29" value="+ props: List&lt;Props&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-18">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-29" value="+ props: List&lt;Props&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-18" vertex="1">
           <mxGeometry y="104" width="150" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-30" value="Props" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-30" value="Props" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="240" y="3259" width="190" height="182" as="geometry">
             <mxRectangle x="1050" y="1880" width="360" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-31" value="+ name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-30">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-31" value="+ name: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-30" vertex="1">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-32" value="+ value: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-30">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-32" value="+ value: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-30" vertex="1">
           <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-35" value="+ pattern: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-30">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-35" value="+ pattern: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-30" vertex="1">
           <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-33" value="+ accurate: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-30">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-33" value="+ accurate: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-30" vertex="1">
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-34" value="+ textValue: string  // 纯文本内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-30">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-34" value="+ textValue: string  // 纯文本内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-30" vertex="1">
           <mxGeometry y="130" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-36" value="+ expressionValue // 表达式内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="KSkUeYs4AEQHfqgUuqgt-30">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-36" value="+ expressionValue // 表达式内容" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="KSkUeYs4AEQHfqgUuqgt-30" vertex="1">
           <mxGeometry y="156" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-37" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-29" target="KSkUeYs4AEQHfqgUuqgt-30">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-37" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;align=left;verticalAlign=bottom;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-29" target="KSkUeYs4AEQHfqgUuqgt-30" edge="1">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
             <mxPoint x="390" y="3116" as="sourcePoint" />
             <mxPoint x="420" y="3250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-16" target="KSkUeYs4AEQHfqgUuqgt-18">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-43" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-16" target="KSkUeYs4AEQHfqgUuqgt-18" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="160" y="3320" as="sourcePoint" />
             <mxPoint x="210" y="3270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-45" value="关键逻辑ProcessSelector:&lt;br&gt;支持3类元素处理：分页按钮selector、相似元素、数据采集元素&lt;br&gt;1.分页按钮selector处理逻辑：不需要自动处理,只要需要原串即可，不需要后续处理&lt;br&gt;2.相似元素拾取&amp;nbsp; 对比生成：&lt;br&gt;&lt;br&gt;&lt;br&gt;3.数据采集，自动生成：支持3种类型，&lt;br&gt;table元素、software软件元素、其他元素：&lt;br&gt;(1) table元素：将返回值设置为table类型RetCaptureModel.IsTable = true;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;List&amp;lt;SelectorProps&amp;gt; selectorObject不做处理&lt;br&gt;&lt;/span&gt;(2) 软件元素：略&lt;br&gt;&lt;br&gt;（3）其他元素：//处理select 得到只有tag的selector&lt;br&gt;List&amp;lt;SelectorProps&amp;gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size: 10px;&quot;&gt;selectorObject&lt;br&gt;&lt;/span&gt;SelectorProps sp&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;List&amp;lt;SelectorProps&amp;gt; onlyContainsTagsProps&lt;br&gt;&lt;/span&gt;onlyContainsTagsProps内的sp保留Name、Type属性&lt;br&gt;若sp.name=&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&quot;iframe&quot;、“frame”、&quot;frameset&quot;则保留sp.Props&lt;br&gt;否则&lt;br&gt;循环props进行筛选&amp;gt;&amp;gt;&lt;br&gt;(a) 删除name为@index的prop&lt;br&gt;(b) 完整保留name=&quot;id&quot;的prop&lt;br&gt;(c) name=&quot;title&quot; 的prop保留name、value属性，Pattern设置为regular，Accurate设置为true&lt;br&gt;(d) 其他prop,&lt;br&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;Name = prop.Name,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Value = &quot;.*&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Pattern = Pattern.REGULAR.GetPatternAttribute(),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Accurate = &quot;true&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;循环props进行筛选 结束&amp;lt;&amp;lt;&lt;/div&gt;&lt;div&gt;调用GuiElement.AutoBulidCollectDataSelector自动构建数据采集选择器&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;调用ChromeNonde.AutoBulidCollectDataSelector()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;返回值赋值&lt;/span&gt;&lt;/div&gt;processedSelector&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;4.&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;存储处理之后的selector,即最终用来做数据采集的selector&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectOverlayWnd.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;RetElementCaptureModel.ProcessedSelector = processedSelector;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-45" value="关键逻辑ProcessSelector:&lt;br&gt;支持3类元素处理：分页按钮selector、相似元素、数据采集元素&lt;br&gt;1.分页按钮selector处理逻辑：不需要自动处理,只要需要原串即可，不需要后续处理&lt;br&gt;2.相似元素拾取&amp;nbsp; 对比生成：&lt;br&gt;&lt;br&gt;&lt;br&gt;3.数据采集，自动生成：支持3种类型，&lt;br&gt;table元素、software软件元素、其他元素：&lt;br&gt;(1) table元素：将返回值设置为table类型RetCaptureModel.IsTable = true;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;List&amp;lt;SelectorProps&amp;gt; selectorObject不做处理&lt;br&gt;&lt;/span&gt;(2) 软件元素：略&lt;br&gt;&lt;br&gt;（3）其他元素：//处理select 得到只有tag的selector&lt;br&gt;List&amp;lt;SelectorProps&amp;gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;font-size: 10px;&quot;&gt;selectorObject&lt;br&gt;&lt;/span&gt;SelectorProps sp&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;List&amp;lt;SelectorProps&amp;gt; onlyContainsTagsProps&lt;br&gt;&lt;/span&gt;onlyContainsTagsProps内的sp保留Name、Type属性&lt;br&gt;若sp.name=&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&quot;iframe&quot;、“frame”、&quot;frameset&quot;则保留sp.Props&lt;br&gt;否则&lt;br&gt;循环props进行筛选&amp;gt;&amp;gt;&lt;br&gt;(a) 删除name为@index的prop&lt;br&gt;(b) 完整保留name=&quot;id&quot;的prop&lt;br&gt;(c) name=&quot;title&quot; 的prop保留name、value属性，Pattern设置为regular，Accurate设置为true&lt;br&gt;(d) 其他prop,&lt;br&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;Name = prop.Name,&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Value = &quot;.*&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Pattern = Pattern.REGULAR.GetPatternAttribute(),&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Accurate = &quot;true&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;循环props进行筛选 结束&amp;lt;&amp;lt;&lt;/div&gt;&lt;div&gt;调用GuiElement.AutoBulidCollectDataSelector自动构建数据采集选择器&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;调用ChromeNonde.AutoBulidCollectDataSelector()&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;返回值赋值&lt;/span&gt;&lt;/div&gt;processedSelector&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;4.&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;存储处理之后的selector,即最终用来做数据采集的selector&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectOverlayWnd.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;RetElementCaptureModel.ProcessedSelector = processedSelector;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-260" y="3390" width="470" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-73" target="KSkUeYs4AEQHfqgUuqgt-45">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="96yUnF7kAp2pRX79rx8w-73" target="KSkUeYs4AEQHfqgUuqgt-45" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-320" y="3390" as="sourcePoint" />
             <mxPoint x="-270" y="3340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-48" value="&lt;br&gt;ChromeNonde.AutoBulidCollectDataSelector()方法逻辑：&lt;br&gt;（注：OnlyContainsTagsSelector是&lt;br&gt;只包含标签的Selector，&lt;br&gt;与普通的元素结构相比，结构层级相同，但不包含属性）&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;string selectors = GetElementFromSelectorAll(paramModel.OnlyContainsTagsSelector.ToJson());&lt;br&gt;List&amp;lt;string&amp;gt; similarSelectors = new List&amp;lt;string&amp;gt;();&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;JArray elementIds = JArray.Parse(selectors);&lt;br&gt;&lt;/span&gt;&lt;br&gt;1. 判断elementIds内elementId数量，若为1则直接返回OriginalSelector，跳过后续处理&lt;br&gt;2. 循环elementIds内elementId&amp;nbsp;进行处理：&lt;br&gt;（a）若elementId.ToString() == this.UserDefinedID（循环内的selector等于当前chromeNode存储的UserDefinedID），则不做处理&lt;br&gt;(b) 否则&lt;br&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;var element = chromeTab.BuildSelector(elementId.ToString());&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; JArray elementArray = JArray.Parse(element);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; elementArray.Remove(elementArray[0]);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;similarSelectors.Add(ele);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3.返回ChromeNode&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;.BuilidCollectDataSelector(paramModel.OriginalSelector, similarSelectors)执行返回值&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-48" value="（注：OnlyContainsTagsSelector是&lt;br&gt;只包含标签的Selector，&lt;br&gt;与普通的元素结构相比，结构层级相同，但不包含属性）&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;string selectors = GetElementFromSelectorAll(paramModel.OnlyContainsTagsSelector.ToJson());&lt;br&gt;List&amp;lt;string&amp;gt; similarSelectors = new List&amp;lt;string&amp;gt;();&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;JArray elementIds = JArray.Parse(selectors);&lt;br&gt;&lt;/span&gt;&lt;br&gt;1. 判断elementIds内elementId数量，若为1则直接返回OriginalSelector，跳过后续处理&lt;br&gt;2. 循环elementIds内elementId&amp;nbsp;进行处理：&lt;br&gt;（a）若elementId.ToString() == this.UserDefinedID（循环内的selector等于当前chromeNode存储的UserDefinedID），则不做处理&lt;br&gt;(b) 否则&lt;br&gt;&lt;span style=&quot;background-color: initial; font-size: 10px;&quot;&gt;var element = chromeTab.BuildSelector(elementId.ToString());&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; JArray elementArray = JArray.Parse(element);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; elementArray.Remove(elementArray[0]);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;similarSelectors.Add(ele);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;3.返回ChromeNode&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;.BuilidCollectDataSelector(paramModel.OriginalSelector, similarSelectors)执行返回值&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="330" y="3525" width="490" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-45" target="KSkUeYs4AEQHfqgUuqgt-48">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-49" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-45" target="KSkUeYs4AEQHfqgUuqgt-48" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="3820" as="sourcePoint" />
             <mxPoint x="280" y="3770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-51" value="ChromeNode.GetElementFromSelectorAll逻辑：" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-51" value="ChromeNode.GetElementFromSelectorAll逻辑：" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="900" y="3510" width="620" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-52" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="900" y="3817" width="640" height="550" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-53" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;关键逻辑:&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeNode.&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;BuilidCollectDataSelector(paramModel.OriginalSelector, similarSelectors)：&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-53" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;关键逻辑:&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeNode.&lt;/span&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;BuilidCollectDataSelector(paramModel.OriginalSelector, similarSelectors)：&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="960" y="3817" width="450" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-60" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-54" target="KSkUeYs4AEQHfqgUuqgt-55">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-60" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-54" target="KSkUeYs4AEQHfqgUuqgt-55" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-54" value="originalSelectorPropsList//基础selector的副本，即原串副本" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-54" value="originalSelectorPropsList//基础selector的副本，即原串副本" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="3887" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-61" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-55" target="KSkUeYs4AEQHfqgUuqgt-56">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-61" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-55" target="KSkUeYs4AEQHfqgUuqgt-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-55" value="//所有相似串的集合 List&amp;lt;string&amp;gt; structureSimilarSelectors转换成List&amp;lt;List&amp;lt;SelectorProps&amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;similarSelectorPropsLists" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-55" value="//所有相似串的集合 List&amp;lt;string&amp;gt; structureSimilarSelectors转换成List&amp;lt;List&amp;lt;SelectorProps&amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;similarSelectorPropsLists" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="3979" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-56" target="KSkUeYs4AEQHfqgUuqgt-57">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-56" target="KSkUeYs4AEQHfqgUuqgt-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-56" value="//移除所有节点层数不同的selector ，理论上是不存在的，只是个保险&lt;br&gt;similarSelectorPropsLists.&lt;br&gt;RemoveAll(sps =&amp;gt; sps.Count() != originalSelectorPropsList.Count())" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-56" value="//移除所有节点层数不同的selector ，理论上是不存在的，只是个保险&lt;br&gt;similarSelectorPropsLists.&lt;br&gt;RemoveAll(sps =&amp;gt; sps.Count() != originalSelectorPropsList.Count())" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="4067" width="230" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-57" target="KSkUeYs4AEQHfqgUuqgt-58">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-57" target="KSkUeYs4AEQHfqgUuqgt-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-57" value="计算源串及相似串之间差异，注意源串只保留&quot;class&quot;, &quot;id&quot;, &quot;@index&quot;三个有效属性&lt;br&gt;差异值计算方法：&lt;br&gt;源串props与相似串props的name及value相等即算相同，差异数量=总数-相同数&lt;br&gt;代码例：originalSelectorPropsList[i].Props与similarSelectorPropsLists[j][i].Props对比&lt;br&gt;找到与源串相似度最高的元素" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-57" value="计算源串及相似串之间差异，注意源串只保留&quot;class&quot;, &quot;id&quot;, &quot;@index&quot;三个有效属性&lt;br&gt;差异值计算方法：&lt;br&gt;源串props与相似串props的name及value相等即算相同，差异数量=总数-相同数&lt;br&gt;代码例：originalSelectorPropsList[i].Props与similarSelectorPropsLists[j][i].Props对比&lt;br&gt;找到与源串相似度最高的元素" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1231" y="3949" width="275" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-58" target="KSkUeYs4AEQHfqgUuqgt-59">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-58" target="KSkUeYs4AEQHfqgUuqgt-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-58" value="使用完整的原串 与 最相似元素 &lt;br&gt;去异求同，尽可能多的保留相似属性&lt;br&gt;代码例：&lt;br&gt;&lt;div&gt;List&amp;lt;SelectorProps&amp;gt; similarSelectorPropsList = similarSelectorPropsLists[targetIndex];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return ChromeTab.&lt;/div&gt;&lt;div&gt;CompareBulidSimileSelector(originalSelector, similarSelectorPropsList);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-58" value="使用完整的原串 与 最相似元素 &lt;br&gt;去异求同，尽可能多的保留相似属性&lt;br&gt;代码例：&lt;br&gt;&lt;div&gt;List&amp;lt;SelectorProps&amp;gt; similarSelectorPropsList = similarSelectorPropsLists[targetIndex];&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return ChromeTab.&lt;/div&gt;&lt;div&gt;CompareBulidSimileSelector(originalSelector, similarSelectorPropsList);&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1211" y="4154.5" width="315" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="KSkUeYs4AEQHfqgUuqgt-59" value="返回相似属性值的List&amp;lt;SelectorProps&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KSkUeYs4AEQHfqgUuqgt-59" value="返回相似属性值的List&amp;lt;SelectorProps&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="4207" width="200" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="s9Rg_GYMoa0nkaGjDex5-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-48" target="KSkUeYs4AEQHfqgUuqgt-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="4110" as="sourcePoint" />
+            <mxPoint x="760" y="4060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9Rg_GYMoa0nkaGjDex5-2" value="关键逻辑，ProcessSelector:" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="3410" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9Rg_GYMoa0nkaGjDex5-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;ChromeNonde.AutoBulidCollectDataSelector()方法逻辑：&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="3525" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s9Rg_GYMoa0nkaGjDex5-4" value="数据采集元素拾取后处理逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="3020.5" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
