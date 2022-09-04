@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-04T01:30:09.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ijmD3vNEv2cL8djeIE1h" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-04T06:25:49.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="QLUFBfz7Z5dMH1vu3OoB" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
-    <mxGraphModel dx="7317" dy="4842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3448" dy="2839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -625,7 +625,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-68" value="处理拾取结果的回调&lt;br&gt;MainWindowViewModel.DealCaptureResult(DataCollectOverlayWnd)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1046" y="3210" width="390" height="60" as="geometry" />
+          <mxGeometry x="1750" y="3333.5" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="96yUnF7kAp2pRX79rx8w-70" target="96yUnF7kAp2pRX79rx8w-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -637,7 +637,7 @@
           <mxGeometry x="-710" y="3320" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-77" value="从DataCollectOverlayWnd.RetCaptureModel中获取拾取到的元素信息&lt;br&gt;&amp;lt;RetElementCaptureModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1046" y="3320" width="390" height="60" as="geometry" />
+          <mxGeometry x="1750" y="3443.5" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-2" target="KSkUeYs4AEQHfqgUuqgt-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -995,16 +995,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-82" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;InitCaptureCollection()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;lt;MainWindowViewModel&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1046" y="2966.5" width="390" height="60" as="geometry" />
+          <mxGeometry x="1750" y="3090" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-83" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectingManager.StartElementCapture_OnSelectored= DealCaptureResult&lt;br&gt;&lt;/span&gt;//注册拾取确认回调事件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="1046" y="3086.5" width="390" height="60" as="geometry" />
+          <mxGeometry x="1750" y="3210" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-68" target="kH1TjeqAv95T1KWUGKLo-83">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="906" y="3288" as="sourcePoint" />
-            <mxPoint x="956" y="3238" as="targetPoint" />
+            <mxPoint x="1610" y="3411.5" as="sourcePoint" />
+            <mxPoint x="1660" y="3361.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-86" value="数据采集拾取阶段预览逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2220" y="3030" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-87" value="处理拾取结果的回调&lt;br&gt;DealCaptureResult(DataCollectOverlayWnd)&lt;br&gt;&amp;lt;MainWindowViewModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="3080" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-88" value="GetDataCollectionBySelector()&lt;br&gt;&amp;lt;MainWindowViewModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="3207.5" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-89" value="数据采集获取相同父级元素逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2770" y="3020.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-90" value="处理拾取结果的回调&lt;br&gt;MainWindowViewModel.GetDataCollectionBySelector(DataCollectOverlayWnd)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2780" y="3090.5" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
