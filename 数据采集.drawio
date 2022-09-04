@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-09-03T10:34:04.116Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="AhR_hblxGhKT0hLNToyf" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-04T01:30:09.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="ijmD3vNEv2cL8djeIE1h" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
-    <mxGraphModel dx="3315" dy="2770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7317" dy="4842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kH1TjeqAv95T1KWUGKLo-61" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;数据采集拾取方法调用顺序：&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-2220" y="2940.5" width="520" height="969.5" as="geometry" />
+          <mxGeometry x="-2220" y="2995.75" width="520" height="969.5" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-60" value="浏览器元素操作插件&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1600" y="2250" width="570" height="530" as="geometry" />
+          <mxGeometry x="-1940" y="1970" width="570" height="530" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-20" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;CollectDataBySelector()&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;/font&gt;&lt;span style=&quot;font-weight: 700; font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&amp;lt;Chrome.GuiOperator&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-480" y="5290" width="1100" height="910" as="geometry" />
@@ -457,7 +457,7 @@
           <mxGeometry x="-2100" y="3150.5" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="phZiyfp4Owrx0l6uCUyv-21" value="Plugin.GUI.Commons.ParamStartCollectElementCaptureModel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="2330" width="480" height="182" as="geometry">
+          <mxGeometry x="307" y="2140" width="480" height="182" as="geometry">
             <mxRectangle x="1050" y="1880" width="360" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -513,7 +513,7 @@
           <mxGeometry x="-2100" y="3250.5" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-1" value="Plugin.GUI.Commons.Params.RetElementCaptureModel" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-400" y="2600" width="520" height="286" as="geometry">
+          <mxGeometry x="307" y="2410" width="520" height="286" as="geometry">
             <mxRectangle x="1050" y="1880" width="360" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -571,16 +571,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-19" value="&amp;nbsp;handle()&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&lt;/span&gt;backgroundscript.js&amp;gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-1430" y="2370" width="270" height="70" as="geometry" />
+          <mxGeometry x="-1770" y="2090" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="96yUnF7kAp2pRX79rx8w-20" target="96yUnF7kAp2pRX79rx8w-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-20" value="chrome.tabs.executeScript()" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-1430" y="2482" width="270" height="60" as="geometry" />
+          <mxGeometry x="-1770" y="2202" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-21" value="handle()&lt;br&gt;&amp;lt;contentscript.js&amp;gt;&lt;br&gt;&lt;br&gt;chrome.tabs.executeScript()" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
-          <mxGeometry x="-1430" y="2580" width="270" height="60" as="geometry" />
+          <mxGeometry x="-1770" y="2300" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-46" value="DataCollect.&lt;br&gt;&lt;div&gt;&amp;nbsp;StartElementCapture()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1400" y="-280" width="270" height="60" as="geometry" />
@@ -625,7 +625,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-68" value="处理拾取结果的回调&lt;br&gt;MainWindowViewModel.DealCaptureResult(DataCollectOverlayWnd)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="3090" width="390" height="60" as="geometry" />
+          <mxGeometry x="1046" y="3210" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="96yUnF7kAp2pRX79rx8w-70" target="96yUnF7kAp2pRX79rx8w-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -636,8 +636,8 @@
         <mxCell id="96yUnF7kAp2pRX79rx8w-73" value="元素选择器处理2&lt;br&gt;DataCollectOverlayWnd .ProcessSelector(GuiElement,List&amp;lt;SelectorProps&amp;gt;)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="-710" y="3320" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="96yUnF7kAp2pRX79rx8w-77" value="从DataCollectOverlayWnd.RetCaptureModel中获取拾取到的元素信息" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="3200" width="390" height="60" as="geometry" />
+        <mxCell id="96yUnF7kAp2pRX79rx8w-77" value="从DataCollectOverlayWnd.RetCaptureModel中获取拾取到的元素信息&lt;br&gt;&amp;lt;RetElementCaptureModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1046" y="3320" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-2" target="KSkUeYs4AEQHfqgUuqgt-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -811,7 +811,7 @@
           <mxGeometry x="370" y="3525" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s9Rg_GYMoa0nkaGjDex5-4" value="数据采集元素拾取后处理逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1190" y="3020.5" width="190" height="30" as="geometry" />
+          <mxGeometry x="-1184.99" y="2966.5" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-1" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Excute()&lt;br&gt;&amp;lt;&lt;/span&gt;DataCollect&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1860" y="4690" width="660" height="670" as="geometry" />
@@ -990,6 +990,21 @@
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-80" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;参数：&lt;/span&gt;pdcModel&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;lt;ParamDataCollectModel&amp;gt;&amp;nbsp;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-1797.5" y="4757" width="265" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-84" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="kH1TjeqAv95T1KWUGKLo-82" target="kH1TjeqAv95T1KWUGKLo-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-82" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;InitCaptureCollection()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;lt;MainWindowViewModel&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="2966.5" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-83" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;DataCollectingManager.StartElementCapture_OnSelectored= DealCaptureResult&lt;br&gt;&lt;/span&gt;//注册拾取确认回调事件" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1046" y="3086.5" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kH1TjeqAv95T1KWUGKLo-85" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-68" target="kH1TjeqAv95T1KWUGKLo-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="906" y="3288" as="sourcePoint" />
+            <mxPoint x="956" y="3238" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
