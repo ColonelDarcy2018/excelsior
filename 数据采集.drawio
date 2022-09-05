@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T02:27:41.386Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mp_esv9e36iDru2D8g50" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T02:29:51.427Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DCgyY-3yGfZ2NV4j4VO3" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
     <mxGraphModel dx="3359" dy="2983" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1044,6 +1044,12 @@
         </mxCell>
         <mxCell id="qnTfOGm4tuomRZm1EcqI-6" value="参数： tabId&lt;br&gt;selector&lt;br&gt;parent &amp;lt;string，传默认null&amp;gt;&lt;br&gt;index &amp;lt;int ,传默认-1&amp;gt;&lt;br&gt;resultAttrName&amp;lt;string，传默认null&amp;gt;&lt;br&gt;filter &amp;lt;string, null&amp;gt;&lt;br&gt;relativeType, &amp;lt;int ,元素相对类型，此处传1，意为similar&amp;gt;&lt;br&gt;positionNum &amp;lt;string, null&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="970" y="3370.5" width="220" height="169.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qnTfOGm4tuomRZm1EcqI-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=11;" edge="1" parent="1" source="KSkUeYs4AEQHfqgUuqgt-48" target="KSkUeYs4AEQHfqgUuqgt-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="3460" as="sourcePoint" />
+            <mxPoint x="880" y="3410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
