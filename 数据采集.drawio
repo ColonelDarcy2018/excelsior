@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T04:03:55.255Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="AD1x7RwDUZim4p3bjEgA" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T04:04:11.432Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="244IgddzOOvv1oX6RtwR" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
     <mxGraphModel dx="3913" dy="3091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1040,7 +1040,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-88" value="获取需要预览的数据&lt;br&gt;GetDataCollectionBySelector()&lt;br&gt;&amp;lt;MainWindowViewModel&amp;gt;&lt;br&gt;selectorDataList生成逻辑：&lt;br&gt;[{&#39;Selector&#39;:&lt;br&gt;&#39;CollectType&#39;:&lt;br&gt;&#39;Regular&#39;:},....]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2230" y="3207.5" width="390" height="132.5" as="geometry" />
+          <mxGeometry x="2230" y="3228" width="390" height="132.5" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-89" value="数据采集获取相同父级元素逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="3240" y="3177.5" width="200" height="30" as="geometry" />
@@ -1082,7 +1082,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GgJGOCEqMePVAC0ds5-u-4" value="/// 处理表格或者列元素预览数据展示&lt;br&gt;DealCaptureBySelectorResult()&lt;br&gt;&amp;lt;DataGridViewModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2230" y="3355" width="390" height="60" as="geometry" />
+          <mxGeometry x="2230" y="3450.5" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GgJGOCEqMePVAC0ds5-u-8" value="数据采集整体逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1750" y="3010" width="130" height="30" as="geometry" />
