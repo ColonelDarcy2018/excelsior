@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-09-08T01:15:08.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4gnHQ78dfdR_CHT7uGyj" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T03:47:13.436Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="chkNqMAo2DZLo_Kemizp" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
-    <mxGraphModel dx="4214" dy="3113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3913" dy="3091" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="3PP6l6SQzyDfUNK0iZ3C-5" target="3PP6l6SQzyDfUNK0iZ3C-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-5" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="3190" y="3175" width="520" height="300" as="geometry" />
+        </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-61" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;数据采集拾取方法调用顺序：&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2220" y="2995.75" width="520" height="969.5" as="geometry" />
         </mxCell>
@@ -1037,16 +1043,16 @@
           <mxGeometry x="2230" y="3207.5" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-89" value="数据采集获取相同父级元素逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="2770" y="3020.5" width="200" height="30" as="geometry" />
+          <mxGeometry x="3240" y="3177.5" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-92" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" parent="1" source="kH1TjeqAv95T1KWUGKLo-90" target="kH1TjeqAv95T1KWUGKLo-91" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-90" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;CollectDataBySelector()&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;lt;DataCollectingManager&lt;/span&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2780" y="3090.5" width="390" height="60" as="geometry" />
+          <mxGeometry x="3250" y="3247.5" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-91" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;GetSameParentsProps(paramMopdel)&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;lt;Chrome.GuiOperator&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;代码逻辑：取SelectorDataList中的第一个元素作为参照，对比所有余下的元素，找出相同的父级属性&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="2780" y="3207.5" width="390" height="60" as="geometry" />
+          <mxGeometry x="3250" y="3364.5" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qnTfOGm4tuomRZm1EcqI-1" value="拾取元素获得Selector信息&lt;br&gt;&amp;lt;List&amp;lt;SelectorProps&amp;gt;&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-760" y="3580" width="220" height="60" as="geometry" />
@@ -1072,6 +1078,9 @@
             <mxPoint x="880" y="3410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GgJGOCEqMePVAC0ds5-u-4" target="3PP6l6SQzyDfUNK0iZ3C-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GgJGOCEqMePVAC0ds5-u-4" value="/// 处理表格或者列元素预览数据展示&lt;br&gt;DealCaptureBySelectorResult()&lt;br&gt;&amp;lt;DataGridViewModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="2230" y="3355" width="390" height="60" as="geometry" />
         </mxCell>
@@ -1086,6 +1095,24 @@
         </mxCell>
         <mxCell id="3PP6l6SQzyDfUNK0iZ3C-3" value="&amp;lt;T1&amp;gt;元素拾取及数据采集元素后处理逻辑：&lt;br&gt;StartElementCapture()&lt;br&gt;&amp;lt;&amp;nbsp;DataCollectingManager&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1550" y="3690.5" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3PP6l6SQzyDfUNK0iZ3C-6" target="3PP6l6SQzyDfUNK0iZ3C-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-6" value="获取需要预览的数据&lt;br&gt;CollectDataBySelector()&lt;br&gt;&amp;lt;DataCollectingManager&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="3080" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="3PP6l6SQzyDfUNK0iZ3C-7" target="3PP6l6SQzyDfUNK0iZ3C-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-7" value="! paramMopdel.IsTable" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="2710" y="3220" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-11" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;采集单页数据逻辑&lt;br&gt;CollectPageData()&lt;br&gt;&amp;lt;DataCollectingManager&amp;gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="3185" y="3525" width="530" height="531.5" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-12" value="CollectDataBySelector()&lt;br&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&lt;/span&gt;guiOperator&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="3230" y="3680" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
