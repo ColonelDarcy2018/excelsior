@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T10:42:35.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OwhvdXm3zjs71JDe1r_x" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-08T01:15:08.183Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4gnHQ78dfdR_CHT7uGyj" version="20.2.8" type="github">
   <diagram id="s6TBnRfsL1Z1KMxq6NeL" name="第 1 页">
-    <mxGraphModel dx="3447" dy="2892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4214" dy="3113" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -624,6 +624,13 @@
         <mxCell id="96yUnF7kAp2pRX79rx8w-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" parent="1" source="96yUnF7kAp2pRX79rx8w-68" target="96yUnF7kAp2pRX79rx8w-77" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="96yUnF7kAp2pRX79rx8w-68" target="3PP6l6SQzyDfUNK0iZ3C-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1655" y="3364" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-68" value="处理拾取结果的回调&lt;br&gt;MainWindowViewModel.DealCaptureResult(DataCollectOverlayWnd)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1750" y="3333.5" width="390" height="60" as="geometry" />
         </mxCell>
@@ -645,7 +652,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="96yUnF7kAp2pRX79rx8w-77" value="从DataCollectOverlayWnd.RetCaptureModel中获取拾取到的元素信息&lt;br&gt;&amp;lt;RetElementCaptureModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1750" y="3443.5" width="390" height="60" as="geometry" />
+          <mxGeometry x="1750" y="3441" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KSkUeYs4AEQHfqgUuqgt-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KSkUeYs4AEQHfqgUuqgt-2" target="KSkUeYs4AEQHfqgUuqgt-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -818,8 +825,8 @@
         <mxCell id="s9Rg_GYMoa0nkaGjDex5-3" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="430" y="3535" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s9Rg_GYMoa0nkaGjDex5-4" value="数据采集元素拾取后处理逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1184.99" y="2966.5" width="190" height="30" as="geometry" />
+        <mxCell id="s9Rg_GYMoa0nkaGjDex5-4" value="T1数据采集元素拾取及后处理逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-1199.99" y="2966.5" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="kH1TjeqAv95T1KWUGKLo-1" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Excute()&lt;br&gt;&amp;lt;&lt;/span&gt;DataCollect&lt;span style=&quot;font-size: 16px;&quot;&gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1860" y="4690" width="660" height="670" as="geometry" />
@@ -1070,6 +1077,15 @@
         </mxCell>
         <mxCell id="GgJGOCEqMePVAC0ds5-u-8" value="数据采集整体逻辑：" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1750" y="3010" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3PP6l6SQzyDfUNK0iZ3C-1" target="3PP6l6SQzyDfUNK0iZ3C-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-1" value="必要情况下重新开启拾取：&lt;br&gt;StartCaptureCollectDataElement(DataCollectOverlayWnd)&lt;br&gt;&amp;lt;&amp;nbsp;MainWindowViewModel&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="3580" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3PP6l6SQzyDfUNK0iZ3C-3" value="&amp;lt;T1&amp;gt;元素拾取及数据采集元素后处理逻辑：&lt;br&gt;StartElementCapture()&lt;br&gt;&amp;lt;&amp;nbsp;DataCollectingManager&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="3690.5" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
