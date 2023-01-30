@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T02:48:32.753Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="wHHVV6G_tI-vIQc80QwM" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-30T02:49:47.013Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Xt8B0HV5hs4VAdFF2I0T" version="20.8.13" type="github">
   <diagram name="Page-1" id="5348f1db-0dfa-24cf-5d06-2057accb5106">
     <mxGraphModel dx="1363" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="55dd390204d0f602-3" value="" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#08585C;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="280" width="880" height="1280" as="geometry" />
         </mxCell>
-        <mxCell id="55dd390204d0f602-1" value="打包逻辑拆分" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#333333;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;" parent="1" vertex="1">
+        <mxCell id="55dd390204d0f602-1" value="ash.sh" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=none;strokeWidth=4;fillColor=#333333;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="200" y="80" width="880" height="200" as="geometry" />
         </mxCell>
         <mxCell id="55dd390204d0f602-2" value="" style="ellipse;whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeColor=#FEF15B;strokeWidth=4;fillColor=none;gradientColor=none;fontFamily=Helvetica;fontSize=100;fontColor=#FFFFFF;align=center;" parent="1" vertex="1">
