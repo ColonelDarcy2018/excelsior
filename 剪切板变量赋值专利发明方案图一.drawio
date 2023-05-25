@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-05-24T10:03:44.519Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.2.9" etag="ON62jECmJqclTST-i0rm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-25T09:19:19.219Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="joXdFSUjbdQreakJnFlK" version="21.3.3" type="github">
   <diagram name="第 1 页" id="AZO0v5cLZBHS767uDpq4">
-    <mxGraphModel>
+    <mxGraphModel dx="596" dy="369" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-5UoQ5pMXS-h1j_7CnzQ-1" target="-5UoQ5pMXS-h1j_7CnzQ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-5UoQ5pMXS-h1j_7CnzQ-2" target="-5UoQ5pMXS-h1j_7CnzQ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-2" value="遍历获取RPA流程内全部组件变量名称及值，生成json字符" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-4" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; font-family: &amp;quot;Times New Roman&amp;quot;; color: rgb(0, 0, 0); font-size: 10px; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;RPA流程&lt;span style=&quot;font-family: 宋体; font-size: 10px;&quot;&gt;变量查询接口：&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="270" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-5UoQ5pMXS-h1j_7CnzQ-6" target="-5UoQ5pMXS-h1j_7CnzQ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-6" value="拼接标识文本，生成&lt;br&gt;“RPA剪切板变量配置文本”" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="430" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-8" value="RPA剪切板变量配置文本" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
