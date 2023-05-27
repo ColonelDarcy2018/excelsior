@@ -1,9 +1,123 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T11:47:22.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.3.4" etag="GYSDXZ4ymQPoVM7aBaNc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T12:58:58.866Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="PgCTPe557xqpnWO9a8X7" version="21.3.4" type="github">
   <diagram name="第 1 页" id="B1s3Wj2U2IvD3xmOGOZ_">
-    <mxGraphModel>
+    <mxGraphModel dx="954" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-56" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="670" y="270" width="330" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-46" value="剪切板变量自动赋值：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;horizontal=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-42" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry y="20" width="330" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-43" value="拷贝到剪切板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry x="70" y="40" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-44" value="进入RPA设计器流程编辑页面" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry x="70" y="120" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-56" source="wn3wKmGaCTvvwAtMVoMg-43" target="wn3wKmGaCTvvwAtMVoMg-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-48" value="剪切板内容监测进程监测到剪切板内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry x="70" y="200" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-56" source="wn3wKmGaCTvvwAtMVoMg-44" target="wn3wKmGaCTvvwAtMVoMg-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-49" value="RPA设计器弹出用户确认弹窗" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry x="70" y="279.5" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-56" source="wn3wKmGaCTvvwAtMVoMg-48" target="wn3wKmGaCTvvwAtMVoMg-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-50" value="确认赋值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry x="70" y="360" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-56" source="wn3wKmGaCTvvwAtMVoMg-49" target="wn3wKmGaCTvvwAtMVoMg-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-51" value="调用赋值接口完成赋值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-56">
+          <mxGeometry x="70" y="440" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-56" source="wn3wKmGaCTvvwAtMVoMg-50" target="wn3wKmGaCTvvwAtMVoMg-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="485" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-35" value="" style="group" vertex="1" connectable="0" parent="wn3wKmGaCTvvwAtMVoMg-39">
+          <mxGeometry y="20" width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-25" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-35">
+          <mxGeometry width="330" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-27" value="拷贝到任意文本编辑器中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-35">
+          <mxGeometry x="70" y="20" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-30" value="手动填写变量值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-35">
+          <mxGeometry x="70" y="100" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-35" source="wn3wKmGaCTvvwAtMVoMg-27" target="wn3wKmGaCTvvwAtMVoMg-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-26" value="输入变量值：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;horizontal=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-39">
+          <mxGeometry width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-18" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="110" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-18">
+          <mxGeometry y="30" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-5" value="新建流程并获取剪切板变量配置文本：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;horizontal=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-18">
+          <mxGeometry width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-3" value="打开RPA设计器&lt;br&gt;创建RPA流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-18">
+          <mxGeometry x="70" y="50" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-13" value="点击RPA设计器内的&lt;br&gt;导出剪切板变量按钮" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-18">
+          <mxGeometry x="70" y="190" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-18" source="wn3wKmGaCTvvwAtMVoMg-12" target="wn3wKmGaCTvvwAtMVoMg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-12" value="配置流程组件及变量名称" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="wn3wKmGaCTvvwAtMVoMg-18">
+          <mxGeometry x="70" y="120" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="wn3wKmGaCTvvwAtMVoMg-18" source="wn3wKmGaCTvvwAtMVoMg-3" target="wn3wKmGaCTvvwAtMVoMg-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wn3wKmGaCTvvwAtMVoMg-9" target="wn3wKmGaCTvvwAtMVoMg-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-9" value="RPA用户&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="10" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wn3wKmGaCTvvwAtMVoMg-14" target="wn3wKmGaCTvvwAtMVoMg-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-14" value="剪切板变量配置文本" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="295" y="410" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wn3wKmGaCTvvwAtMVoMg-13" target="wn3wKmGaCTvvwAtMVoMg-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-36" value="剪切板变量配置文本" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="295" y="720" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wn3wKmGaCTvvwAtMVoMg-30" target="wn3wKmGaCTvvwAtMVoMg-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wn3wKmGaCTvvwAtMVoMg-38" target="wn3wKmGaCTvvwAtMVoMg-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wn3wKmGaCTvvwAtMVoMg-38" value="剪切板变量配置文本" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="785" y="180" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
