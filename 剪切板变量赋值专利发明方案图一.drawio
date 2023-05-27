@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-27T13:02:50.023Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="uqzceFDHn2P7piw1_PeC" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-27T14:05:08.887Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="O6Q30xKY98wq1asoR0Uo" version="21.3.4" type="github">
   <diagram name="第 1 页" id="AZO0v5cLZBHS767uDpq4">
     <mxGraphModel dx="763" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,8 +62,8 @@
         <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-14" value="获取剪切板内容" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="320" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-16" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;剪切板内容监测方法：&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="640" y="270" width="110" height="20" as="geometry" />
+        <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-16" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;Times New Roman&quot;&gt;剪切板内容获取及检测逻辑：&lt;/font&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="640" y="270" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="-5UoQ5pMXS-h1j_7CnzQ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-5UoQ5pMXS-h1j_7CnzQ-17" target="-5UoQ5pMXS-h1j_7CnzQ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -142,10 +142,11 @@
         <mxCell id="bXYHZFamC-rftGEKUajG-9" value="将RPA剪切板变量配置文本中与组件变量同名的变量值取出，对组件变量进行赋值" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="990" y="740" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bXYHZFamC-rftGEKUajG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="bXYHZFamC-rftGEKUajG-13" target="bXYHZFamC-rftGEKUajG-2" edge="1">
+        <mxCell id="bXYHZFamC-rftGEKUajG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="bXYHZFamC-rftGEKUajG-13" target="bXYHZFamC-rftGEKUajG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="940" y="670" />
+              <mxPoint x="860" y="660" />
+              <mxPoint x="940" y="660" />
               <mxPoint x="940" y="570" />
             </Array>
           </mxGeometry>
@@ -199,7 +200,8 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="980" />
-              <mxPoint x="940" y="760" />
+              <mxPoint x="940" y="685" />
+              <mxPoint x="860" y="685" />
             </Array>
           </mxGeometry>
         </mxCell>
