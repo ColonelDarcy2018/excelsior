@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T01:21:14.785Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="nnA-q0utK1_TQwvTdJSi" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T01:44:04.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GuPN5pl55lsu9nEbOBCN" version="21.5.1" type="github">
   <diagram name="第 1 页" id="L_vSuMCrheH9UZkfo6jQ">
     <mxGraphModel dx="1781" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-465" y="640" width="685" height="970" as="geometry" />
+        </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-465" y="270" width="370" height="210" as="geometry" />
         </mxCell>
@@ -34,20 +37,46 @@
         <mxCell id="4KZR_HS20SmPj8nSOGkS-9" value="配置扫描的目录路径" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="150" width="150" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-13" target="4KZR_HS20SmPj8nSOGkS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-13" value="目标文件列表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="-340" y="510" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-16" value="文件扫描脚本：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-465" y="240" width="95" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-465" y="640" width="370" height="430" as="geometry" />
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-20" target="4KZR_HS20SmPj8nSOGkS-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-20" value="循环取出列表内目标文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="660" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-21" value="预处理命令解析脚本：" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-465" y="610" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-22" target="4KZR_HS20SmPj8nSOGkS-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-22" value="取出目标文件内全部包含&quot;##@&quot;文本行（包括行号，可使用read命令），存入命令行数组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="770" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-23" value="取出数组第0位元素" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1010" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-24" target="4KZR_HS20SmPj8nSOGkS-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-33" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4KZR_HS20SmPj8nSOGkS-29">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-24" value="命令行数组长度&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="870" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-34" value="分割出行号和" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1140" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
