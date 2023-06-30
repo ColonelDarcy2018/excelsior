@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T08:44:50.081Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="SVmJ_BOgTohHRjdGgzcU" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T08:49:44.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6Mi9zlTikXb2xy2dQtyi" version="21.5.1" type="github">
   <diagram name="第 1 页" id="L_vSuMCrheH9UZkfo6jQ">
     <mxGraphModel dx="1781" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,14 +87,23 @@
         <mxCell id="4KZR_HS20SmPj8nSOGkS-36" value="取分隔符截取后的第二个元素作为当前主命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1490" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-37" value="判断当前主命令是否为" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1800" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-39" value="声明“缓存头命令”变量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-39" value="声明“缓存头命令”变量（不赋值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1380" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-40" value="last_command已赋值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-40" target="4KZR_HS20SmPj8nSOGkS-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-40" value="缓存头命令已赋值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="1610" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-41" value="当前主命令为缓存头&lt;br&gt;命令对应的尾命令" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="1770" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-42" value="当前主命令为新的头命令" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="1770" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-44" value="将头命令行号、尾命令行号、参数等信息整合成一条预处理命令元信息，存入预处理命令元信息列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1950" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
