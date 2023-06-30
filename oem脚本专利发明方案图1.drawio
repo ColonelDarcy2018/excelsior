@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T09:55:49.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aewTcp6u_UE8H7K72enr" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T10:02:18.134Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4o6Hx8YQ31eTr80F6bWW" version="21.5.1" type="github">
   <diagram name="第 1 页" id="L_vSuMCrheH9UZkfo6jQ">
     <mxGraphModel dx="1781" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,14 +81,14 @@
         <mxCell id="4KZR_HS20SmPj8nSOGkS-34" value="分割出行号和行内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1130" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-35" value="通过“##”分隔符截取行内容，取分隔符截取后的第二个元素作为当前主命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-35" value="通过“##”分隔符分割行内容，将分割后的内容存入数组command_array中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1220" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-36" value="取分隔符截取后的第二个元素作为当前主命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1490" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-39" value="声明“缓存头命令”变量（不赋值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1330" width="260" height="60" as="geometry" />
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-39" value="声明last_command变量（用于缓存缓存头命令&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;，不赋值）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1310" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-40" target="4KZR_HS20SmPj8nSOGkS-41">
           <mxGeometry relative="1" as="geometry" />
@@ -143,6 +143,12 @@
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-63" value="process_command(command_lines_stack&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="540" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-65" value="声明start_line&lt;span style=&quot;background-color: initial;&quot;&gt;变量（用于缓存缓存头命令&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;所在行号，不赋值）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1300" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-66" value="声明start_line，end_line&lt;span style=&quot;background-color: initial;&quot;&gt;变量（分别用于缓存头、尾命令&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;所在行号，不赋值）&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="1400" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
