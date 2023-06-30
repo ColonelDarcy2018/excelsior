@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-06-30T08:49:44.932Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6Mi9zlTikXb2xy2dQtyi" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-30T09:55:49.860Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="aewTcp6u_UE8H7K72enr" version="21.5.1" type="github">
   <diagram name="第 1 页" id="L_vSuMCrheH9UZkfo6jQ">
     <mxGraphModel dx="1781" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4KZR_HS20SmPj8nSOGkS-19" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-465" y="640" width="685" height="2220" as="geometry" />
+          <mxGeometry x="-600" y="640" width="1340" height="2220" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-38" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="990" width="620" height="1200" as="geometry" />
+          <mxGeometry x="-500" y="990" width="1180" height="1350" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-15" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-465" y="270" width="370" height="210" as="geometry" />
@@ -61,10 +61,10 @@
         <mxCell id="4KZR_HS20SmPj8nSOGkS-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-22" target="4KZR_HS20SmPj8nSOGkS-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-22" value="取出目标文件内全部包含&quot;##@&quot;文本行（包括行号，可使用read命令），存入预处理命令列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-22" value="取出目标文件内全部包含&quot;##@&quot;文本行（包括行号，可使用read命令），存入预处理命令栈" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="770" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-23" value="取出列表内第一条预处理命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-23" value="弹出第一条预处理命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1010" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-24" target="4KZR_HS20SmPj8nSOGkS-23">
@@ -75,20 +75,20 @@
             <mxPoint x="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-24" value="预处理命令列表长度&amp;gt;0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-24" value="预处理命令栈不为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="870" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-34" value="分割出行号和行内容" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1140" width="260" height="60" as="geometry" />
+          <mxGeometry x="-410" y="1130" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-35" value="通过“##”分隔符截取行内容，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1250" width="260" height="60" as="geometry" />
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-35" value="通过“##”分隔符截取行内容，取分隔符截取后的第二个元素作为当前主命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1220" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-36" value="取分隔符截取后的第二个元素作为当前主命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-410" y="1490" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-39" value="声明“缓存头命令”变量（不赋值）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-410" y="1380" width="260" height="60" as="geometry" />
+          <mxGeometry x="-410" y="1330" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-40" target="4KZR_HS20SmPj8nSOGkS-41">
           <mxGeometry relative="1" as="geometry" />
@@ -96,14 +96,53 @@
         <mxCell id="4KZR_HS20SmPj8nSOGkS-40" value="缓存头命令已赋值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="1610" width="140" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-41" target="4KZR_HS20SmPj8nSOGkS-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-50" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4KZR_HS20SmPj8nSOGkS-49">
+          <mxGeometry x="-0.1429" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-41" target="4KZR_HS20SmPj8nSOGkS-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-57" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4KZR_HS20SmPj8nSOGkS-56">
+          <mxGeometry x="-0.15" y="1" relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-41" value="当前主命令为缓存头&lt;br&gt;命令对应的尾命令" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="1770" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="4KZR_HS20SmPj8nSOGkS-42" value="当前主命令为新的头命令" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-140" y="1770" width="140" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="4KZR_HS20SmPj8nSOGkS-44" value="将头命令行号、尾命令行号、参数等信息整合成一条预处理命令元信息，存入预处理命令元信息列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="1950" width="260" height="60" as="geometry" />
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-44" target="4KZR_HS20SmPj8nSOGkS-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-44" value="将头命令行号、尾命令行号、参数等信息整合成一条预处理命令元信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="1950" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-45" value="存入“预处理命令元信息列表”" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="2060" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4KZR_HS20SmPj8nSOGkS-46" target="4KZR_HS20SmPj8nSOGkS-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-450" y="2200" />
+              <mxPoint x="-450" y="920" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-46" value="返回，处理下一条预处理数据数组中的信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="2170" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-53" value="递归调用process_command(command_lines_stack)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1790" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4KZR_HS20SmPj8nSOGkS-63" value="process_command(command_lines_stack&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="540" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
