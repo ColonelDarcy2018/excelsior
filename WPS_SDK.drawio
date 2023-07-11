@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T07:46:30.586Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.2" etag="imZtcr6DgZ2vdlQvijHa" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T07:52:13.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LL0GLIfAtQ2HajvYSw3R" version="21.5.2" type="github">
   <diagram name="第 1 页" id="6N0dPDd7mWbPLZumkeK7">
-    <mxGraphModel>
+    <mxGraphModel dx="2110" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="150" width="520" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-2" value="newDoc()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-3" value="[&amp;nbsp; {&quot;OpenDoc&quot;: {showButton:&quot;btnSaveFile;btnSaveAsLocal&quot;} } ]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="430" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
