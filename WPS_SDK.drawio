@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T08:48:10.201Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Fc2R606WDgJYs5FLOScd" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T08:56:57.262Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CO6udbfW08kYGT-H1vDq" version="21.5.2" type="github">
   <diagram name="第 1 页" id="6N0dPDd7mWbPLZumkeK7">
     <mxGraphModel dx="2110" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -82,27 +82,6 @@
         <mxCell id="Ks9pQ6j11mJYRdy5cMJx-34" value="options.concurrent = this.concurrent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-27">
           <mxGeometry x="45" y="200" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-35" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="320" y="2300" width="520" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-36" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-35">
-          <mxGeometry y="30" width="520" height="390" as="geometry" />
-        </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-37" value="WpsStartWrapVersionInner(options):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-35">
-          <mxGeometry width="260" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-38" value="options.clientType = this.clientType" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-35">
-          <mxGeometry x="45" y="60" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-39" value="传参：{url:options.urlBase+&#39;/version&#39;, sendData: JSON.stringify({ serverId: serverId }), callBack: function(res), tryCount: 4, bPop: !g_isSdkInited, timeout: 5000, concurrent: options.concurrent}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-35">
-          <mxGeometry x="45" y="310" width="430" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-40" value="options.wpsclient = this" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-35">
-          <mxGeometry x="265" y="60" width="210" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-41" value="options.concurrent = this.concurrent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-35">
-          <mxGeometry x="45" y="140" width="210" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="Ks9pQ6j11mJYRdy5cMJx-56" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="365" y="3030" width="310" height="300" as="geometry" />
         </mxCell>
@@ -132,6 +111,36 @@
         </mxCell>
         <mxCell id="Ks9pQ6j11mJYRdy5cMJx-48" value="options.concurrent = this.concurrent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="365" y="2940" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-36" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2330" width="960" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-37" value="WpsStartWrapVersionInner(options):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2300" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-38" value="options.clientType = this.clientType" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="2360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-39" value="调用接口查看version传参：{url:options.urlBase+&#39;/version&#39;, sendData: JSON.stringify({ serverId: serverId }), callBack: function(res), tryCount: 4, bPop: !g_isSdkInited, timeout: 5000, concurrent: options.concurrent}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="2610" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-40" value="options.wpsclient = this" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="585" y="2360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-41" value="options.concurrent = this.concurrent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="2440" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-57" value="调用接口查看version传参：{url:options.urlBase+&#39;/version&#39;, sendData: JSON.stringify({ serverId: serverId }), callBack: function(res), tryCount: 4, bPop: !g_isSdkInited, timeout: 5000, concurrent: options.concurrent}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="2610" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-58" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2800" width="520" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-59" value="WpsStartWrapExInner(options)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2770" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-60" value="var infocontent = options.param.param&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="975" y="2840" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
