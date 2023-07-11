@@ -1,17 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T07:52:13.799Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LL0GLIfAtQ2HajvYSw3R" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T08:25:02.443Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="IdBUw_XaBH6bkLYfuPkF" version="21.5.2" type="github">
   <diagram name="第 1 页" id="6N0dPDd7mWbPLZumkeK7">
     <mxGraphModel dx="2110" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="150" width="520" height="170" as="geometry" />
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="910" width="520" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-2" value="newDoc()" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="120" width="60" height="30" as="geometry" />
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-12" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-16">
+          <mxGeometry y="30" width="520" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-3" value="[&amp;nbsp; {&quot;OpenDoc&quot;: {showButton:&quot;btnSaveFile;btnSaveAsLocal&quot;} } ]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="200" width="430" height="60" as="geometry" />
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-13" value="singleInvoke(info, front, jsPluginsXml, isSilent):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-16">
+          <mxGeometry width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="400" width="520" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-7">
+          <mxGeometry y="30" width="520" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-6" value="_WpsInvoke(funcs, front, jsPluginsXml, isSilent):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-7">
+          <mxGeometry width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-8" value="创建info对象{}，将funcs赋值info.funcs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-7">
+          <mxGeometry x="45" y="80" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-9" value="创建info对象{}，将funcs赋值info.funcs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-7">
+          <mxGeometry x="45" y="200" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Ks9pQ6j11mJYRdy5cMJx-3" target="Ks9pQ6j11mJYRdy5cMJx-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-3" value="newDoc()传参：[&amp;nbsp; {&quot;OpenDoc&quot;: {showButton:&quot;btnSaveFile;btnSaveAsLocal&quot;} } ]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="250" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-14" value="调用WpsInvoke.InvokeAsHttp()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="990" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-15" value="传参：pluginType, pluginName, &quot;dispatcher&quot;, info, function(result){}, front, jsPluginsXml, isSilent" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1110" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="320" y="1330" width="520" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-18" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-17">
+          <mxGeometry y="30" width="520" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-19" value="InvokeAsHttp(name, func, param, callBack, showToFront, timeout, startparam):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-17">
+          <mxGeometry width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-20" value="包装callback方法，兼容不同server端版本（serverVersion全局变量）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-17">
+          <mxGeometry x="40" y="80" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
