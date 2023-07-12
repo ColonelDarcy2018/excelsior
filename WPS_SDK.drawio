@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T06:44:18.227Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1qpZQNm5h7QVFuVXR9jE" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T06:46:08.254Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="rbYl5Rm-gxf0fL8itrkC" version="21.5.2" type="github">
   <diagram name="第 1 页" id="6N0dPDd7mWbPLZumkeK7">
-    <mxGraphModel dx="3932" dy="1191" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3012" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -249,7 +249,7 @@
         <mxCell id="Ks9pQ6j11mJYRdy5cMJx-99" value="WpsStartWrapVersion(clientType,name, func, param, callBack, showToFront, jsPluginsXml, silentMode, timeout, startparam):" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-97">
           <mxGeometry width="350" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-101" value="封装options参数{name:name, func:func, param: paramEx, urlBase: GetUrlBase(), callBack: clientCallback, timeout: timeout, startparam: startparam}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-97">
+        <mxCell id="Ks9pQ6j11mJYRdy5cMJx-101" value="封装options参数{clientType:,name:, func:, param: paramEx, urlBase: GetUrlBase(), callBack: , wpsclient: undefined, concurrent:true, silentMode:, timeout:, startparam:}" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-97">
           <mxGeometry x="45" y="180" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ks9pQ6j11mJYRdy5cMJx-102" value="传参：{ name:name, func:func, param: paramEx, urlBase: GetUrlBase(), callBack: clientCallback, timeout: timeout, startparam: startparam }" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Ks9pQ6j11mJYRdy5cMJx-97">
