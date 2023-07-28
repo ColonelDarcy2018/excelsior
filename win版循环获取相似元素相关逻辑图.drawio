@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-07-28T07:58:42.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7blvvRv4xLpPz0174gW8" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-28T09:12:02.360Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HatAbl-LhsYLrZCKjz3o" version="21.6.5" type="github">
   <diagram name="第 1 页" id="UWZDFTL9o2CJtpgyM2nF">
     <mxGraphModel dx="1590" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="930" width="640" height="600" as="geometry" />
+        </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-300" y="280" width="430" height="600" as="geometry" />
         </mxCell>
@@ -11,7 +14,7 @@
           <mxGeometry x="-300" y="250" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-10" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-330" y="1080" width="650" height="690" as="geometry" />
+          <mxGeometry x="-800" y="1169" width="790" height="690" as="geometry" />
         </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BrJIG2N0BZn2m2lbS2RZ-10">
           <mxGeometry y="30" width="650" height="660" as="geometry" />
@@ -19,8 +22,11 @@
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-9" value="GuiElement.FromSelectorAll()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BrJIG2N0BZn2m2lbS2RZ-10">
           <mxGeometry width="300" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-15" value="判断元素类型是否支持" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BrJIG2N0BZn2m2lbS2RZ-10">
+          <mxGeometry x="260" y="221" width="290" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-11" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="880" y="1090" width="650" height="690" as="geometry" />
+          <mxGeometry x="1190" y="1500" width="650" height="690" as="geometry" />
         </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BrJIG2N0BZn2m2lbS2RZ-11">
           <mxGeometry y="30" width="650" height="660" as="geometry" />
@@ -30,9 +36,6 @@
         </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-14" value="循环guiOperator（元素类型对应的方法类）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BrJIG2N0BZn2m2lbS2RZ-11">
           <mxGeometry x="140" y="160" width="290" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-15" value="判断元素类型是否支持" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="1150" width="290" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-16" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1810" y="930" width="650" height="690" as="geometry" />
@@ -76,6 +79,14 @@
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-7" value="判断元素类型是否支持" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="460" width="290" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrJIG2N0BZn2m2lbS2RZ-26" target="BrJIG2N0BZn2m2lbS2RZ-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="570" />
+              <mxPoint x="240" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-26" value="获取elementIds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-230" y="540" width="290" height="60" as="geometry" />
         </mxCell>
@@ -89,13 +100,33 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-28" value="GuiElement.OriginalFromSelectorAll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="585" width="290" height="60" as="geometry" />
+          <mxGeometry x="390" y="585" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BrJIG2N0BZn2m2lbS2RZ-29" target="BrJIG2N0BZn2m2lbS2RZ-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-29" value="guiOperator.GetElementFromSelectorAll(param)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="760" width="290" height="60" as="geometry" />
+          <mxGeometry x="390" y="750" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-32" value="GuiOperatorBase.GetElementFromSelectorAll(&lt;br&gt;GetElementFromSelectorParams args)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="960" width="290" height="60" as="geometry" />
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-32" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1080" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-35" value="GuiOperatorBase.GetElementFromSelectorAll(&lt;br style=&quot;border-color: var(--border-color); text-align: center;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;GetElementFromSelectorParams args)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="900" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BrJIG2N0BZn2m2lbS2RZ-36" target="BrJIG2N0BZn2m2lbS2RZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BrJIG2N0BZn2m2lbS2RZ-38">
+          <mxGeometry x="-0.0025" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-36" value="version.StartsWith(&quot;1.&quot;)?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1080" width="196" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BrJIG2N0BZn2m2lbS2RZ-37" value="retData = tabPage.GetElementFromSelectorAllOld(args.Selector)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="1090" width="313" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
