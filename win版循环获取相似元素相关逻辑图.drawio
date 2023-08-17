@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T08:38:04.411Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VtRjO4LPpGYhqjcJ6XQQ" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T09:30:21.966Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="VDfwJ_8u5KTxBfw1AJeu" version="21.6.5" type="github">
   <diagram name="第 1 页" id="UWZDFTL9o2CJtpgyM2nF">
     <mxGraphModel dx="3512" dy="1028" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0bpNNzVmtFseap0liyOD-15" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="6616" y="497.5" width="1030" height="305" as="geometry" />
+        </mxCell>
         <mxCell id="BrJIG2N0BZn2m2lbS2RZ-34" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="230" y="930" width="640" height="600" as="geometry" />
         </mxCell>
@@ -129,34 +132,55 @@
           <mxGeometry x="530" y="1090" width="313" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-1" value="Element.CaptureSimilar 逻辑：&lt;br&gt;&amp;lt; CaptureSimilar:&amp;nbsp;Excute() &amp;gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5910" y="140" width="220" height="30" as="geometry" />
+          <mxGeometry x="6660" y="510" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-4" value="GuiElement.FromSelectorAll(selector, selectorType, true, paramModel.cvExecutionServiceURL, extendParam: hashtable)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4030" y="445" width="360" height="60" as="geometry" />
+          <mxGeometry x="3739" y="445" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-5" value="GuiElement.OriginalFromSelectorAll(selector, selectorType, findOnce, CVExecutionServiceURL, extendParam)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4470" y="445" width="360" height="60" as="geometry" />
+          <mxGeometry x="4179" y="445" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-6" value="GetElementFromSelectorAll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4480" y="635" width="360" height="60" as="geometry" />
+          <mxGeometry x="4189" y="635" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-7" value="逻辑：&lt;br&gt;GetElementSelectorAll:Excute()" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="4010" y="250" width="220" height="30" as="geometry" />
+          <mxGeometry x="3719" y="250" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0bpNNzVmtFseap0liyOD-9" target="0bpNNzVmtFseap0liyOD-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-9" value="GuiElement.StartElementHighlight(paramModel.filepath, paramModel.isCVCapture, paramModel.cvServer, paramModel.InspectStatus, RecoverViewData.RestoreViewData(paramModel.selector));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6140" y="280" width="360" height="60" as="geometry" />
+          <mxGeometry x="6710" y="600" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-10" value="overlayForm.StartHighlight(filepath, isCVCapture, cvServer, InspectStatus, selector, captureModeType, isCvSupport);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="6600" y="280" width="360" height="60" as="geometry" />
+          <mxGeometry x="7170" y="600" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-13" value="ui_selector_similar action逻辑：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="5890" y="540" width="220" height="30" as="geometry" />
+          <mxGeometry x="6080" y="480" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0bpNNzVmtFseap0liyOD-14" value="UIElement_OnSelected" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5880" y="780" width="360" height="60" as="geometry" />
+        <mxCell id="0bpNNzVmtFseap0liyOD-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="0bpNNzVmtFseap0liyOD-14" target="0bpNNzVmtFseap0liyOD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0bpNNzVmtFseap0liyOD-14" target="0bpNNzVmtFseap0liyOD-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-14" value="Element.CaptureSimilar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6090" y="620" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-17" value="get_selector_array(uiSelector)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="6090" y="835" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-19" value="get_selector_array方法逻辑：" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2920" y="250" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-20" value="Element.GetElementSelectorAll" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="480" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0bpNNzVmtFseap0liyOD-21" target="0bpNNzVmtFseap0liyOD-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-21" value="ElementAarray(selector, browser_type=&#39;&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3040" y="320" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
