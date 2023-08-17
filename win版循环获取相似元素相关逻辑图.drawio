@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T10:14:43.928Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="KcaQZEmrHporsod1OjiM" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T10:28:24.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bGlwF9_XNIR3aFVkVpo-" version="21.6.5" type="github">
   <diagram name="第 1 页" id="UWZDFTL9o2CJtpgyM2nF">
     <mxGraphModel dx="2864" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,6 +197,9 @@
         <mxCell id="0bpNNzVmtFseap0liyOD-21" value="ElementAarray(selector, browser_type=&#39;&#39;)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3040" y="320" width="360" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0bpNNzVmtFseap0liyOD-25" target="0bpNNzVmtFseap0liyOD-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-25" value="elementIds" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3719" y="465" width="360" height="60" as="geometry" />
         </mxCell>
@@ -250,6 +253,9 @@
         </mxCell>
         <mxCell id="0bpNNzVmtFseap0liyOD-48" value="&lt;div&gt;conn.Send(&quot;tabs.querySelectorAll&quot;, new JObject {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;tabId&quot;, tabId },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;selector&quot;, JArray.Parse(selector) },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;parent&quot;, parentElementId },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;index&quot;, index },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;resultAttrName&quot;, resultAttrName },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;filter&quot;, filter },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;relativeType&quot;, (int)relativeType } ,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;positionNum&quot;, positionNum },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; { &quot;version&quot;, version }&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; });&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5453" y="682.5" width="357" height="187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0bpNNzVmtFseap0liyOD-50" value="GuiElement.BuildSelectors(json, selectorType)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3719" y="570" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
