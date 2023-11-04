@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T09:45:09.209Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="p0rf4NXYV95cElbWStyC" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-04T09:49:58.315Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="yLxDyrMV4MJCiakEK0w1" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
     <mxGraphModel dx="681" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,11 +12,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-11" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4PUE3C8j-RCjqCMSjhHY-5">
-          <mxGeometry x="-0.281" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-1" value="RPA系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="160" width="200" height="40" as="geometry" />
         </mxCell>
@@ -28,22 +23,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-12" value="2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4PUE3C8j-RCjqCMSjhHY-6">
-          <mxGeometry x="-0.2293" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-2" target="4PUE3C8j-RCjqCMSjhHY-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="230" />
               <mxPoint x="430" y="230" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-15" value="6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4PUE3C8j-RCjqCMSjhHY-10">
-          <mxGeometry x="0.0741" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-2" value="java、python等编程语言的Shell相关接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -57,17 +42,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-13" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4PUE3C8j-RCjqCMSjhHY-7">
-          <mxGeometry x="-0.2293" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-9" value="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-3" target="4PUE3C8j-RCjqCMSjhHY-2">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-3" target="4PUE3C8j-RCjqCMSjhHY-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="310" />
               <mxPoint x="430" y="310" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-3" value="Shell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -79,11 +60,6 @@
               <mxPoint x="430" y="390" />
               <mxPoint x="430" y="390" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-14" value="4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4PUE3C8j-RCjqCMSjhHY-8">
-          <mxGeometry x="-0.1155" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-4" value="文件管理相关应用，如dde-file-manager、mv、rm等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
