@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T03:16:19.486Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="BvwMkopI0uNRAZmTNR_j" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T11:21:50.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="39OmQXsaElxrx7E7qk3R" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
-    <mxGraphModel dx="516" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="724" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,30 +20,67 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-1" value="RPA系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="160" width="200" height="40" as="geometry" />
+          <mxGeometry x="160" y="160" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-2" target="4PUE3C8j-RCjqCMSjhHY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-2" target="4PUE3C8j-RCjqCMSjhHY-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-2" value="java、python等编程语言的Shell相关接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="300" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-3" target="4PUE3C8j-RCjqCMSjhHY-2">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-2" target="4PUE3C8j-RCjqCMSjhHY-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="430" y="370" />
-              <mxPoint x="430" y="370" />
+              <mxPoint x="360" y="350" />
+              <mxPoint x="360" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.124;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-2" target="4PUE3C8j-RCjqCMSjhHY-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="430" />
+              <mxPoint x="200" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-2" value="各编程语言用于执行外部命令的模块&lt;br&gt;如python的subprocess模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="300" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-3" target="4PUE3C8j-RCjqCMSjhHY-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="430" />
+              <mxPoint x="360" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-3" value="Shell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="380" width="200" height="40" as="geometry" />
+          <mxGeometry x="320" y="380" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-4" target="4PUE3C8j-RCjqCMSjhHY-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="450" />
+              <mxPoint x="440" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.372;exitY=0.032;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-4" target="4PUE3C8j-RCjqCMSjhHY-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="461" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-4" value="文件管理相关应用，如dde-file-manager、mv、rm等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="460" width="200" height="40" as="geometry" />
+          <mxGeometry x="160" y="460" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" source="4PUE3C8j-RCjqCMSjhHY-17" target="4PUE3C8j-RCjqCMSjhHY-20" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -170,8 +207,8 @@
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-72" target="4PUE3C8j-RCjqCMSjhHY-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-72" value="硬编码Shell命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="230" width="100" height="40" as="geometry" />
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-72" value="硬编码外部命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="230" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-80" value="RPA系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="940" y="230" width="480" height="40" as="geometry" />
