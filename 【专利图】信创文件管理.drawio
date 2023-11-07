@@ -1,20 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T11:21:50.483Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="39OmQXsaElxrx7E7qk3R" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T11:35:31.999Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="p1ULcmpkyPYmQwdQaQL_" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
-    <mxGraphModel dx="724" dy="355" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="796" dy="390" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-39" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;arcSize=1;" vertex="1" parent="1">
           <mxGeometry x="920" y="370" width="520" height="360" as="geometry" />
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4PUE3C8j-RCjqCMSjhHY-34">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1060" y="320" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="1060" y="340" />
-              <mxPoint x="1060" y="340" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-1" target="4PUE3C8j-RCjqCMSjhHY-72">
           <mxGeometry relative="1" as="geometry" />
@@ -163,19 +154,19 @@
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-34" value="通用Shell接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="400" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.771;exitY=-0.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-41" target="4PUE3C8j-RCjqCMSjhHY-44">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-41" value="Shell" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="880" width="480" height="40" as="geometry" />
+          <mxGeometry x="950" y="780" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-44">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-44" target="4PUE3C8j-RCjqCMSjhHY-80">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1310" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1310" y="330" />
+              <mxPoint x="1310" y="330" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-44" value="Shell异常反馈判断模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="620" width="200" height="40" as="geometry" />
+          <mxGeometry x="1210" y="560" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-46" target="4PUE3C8j-RCjqCMSjhHY-47">
           <mxGeometry relative="1" as="geometry">
@@ -188,21 +179,16 @@
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-46" value="信创系统兼容模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="480" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-47">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-47" target="4PUE3C8j-RCjqCMSjhHY-91">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1060.0000000000002" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1060" y="640" />
+              <mxPoint x="1060" y="640" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-47" value="外部应用系统依赖环境变量封装" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-47" value="外部应用系统依赖环境变量封装模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="560" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4PUE3C8j-RCjqCMSjhHY-41">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1060.0000000000002" y="660" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-71" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="750" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-72" target="4PUE3C8j-RCjqCMSjhHY-2">
           <mxGeometry relative="1" as="geometry" />
@@ -210,8 +196,27 @@
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-72" value="硬编码外部命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="230" width="100" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-80" target="4PUE3C8j-RCjqCMSjhHY-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="340" />
+              <mxPoint x="1060" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-80" value="RPA系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="230" width="480" height="40" as="geometry" />
+          <mxGeometry x="950" y="280" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-91" target="4PUE3C8j-RCjqCMSjhHY-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1310" y="640" />
+              <mxPoint x="1310" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-91" value="各编程语言用于执行外部命令的模块&lt;br&gt;如python的subprocess模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="650" width="450" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
