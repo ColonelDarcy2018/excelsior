@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T11:39:48.212Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="1MNG-y740qi0b4LHoUnJ" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-08T01:16:27.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="m36Yc2RnrfFlZ8X2fBt_" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
-    <mxGraphModel dx="1706" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1085" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -208,7 +208,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-47" value="外部应用系统依赖环境变量封装模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-47" value="外部应用系统依赖环境封装模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="440" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-72" target="4PUE3C8j-RCjqCMSjhHY-2">
@@ -248,6 +248,9 @@
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-100" value="文件管理相关应用，如dde-file-manager、mv、rm等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="750" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-103" value="信创体系Shell调用SDK" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="220" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
