@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T02:03:18.619Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="MeXgz8rEjeFF8qmN5QUf" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T02:40:35.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4tHa5Nrf_REzyYrINIRj" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
     <mxGraphModel dx="1085" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -325,13 +325,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-151" value="获取stderr、stdin内信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2560" y="530" width="200" height="40" as="geometry" />
+          <mxGeometry x="2370" y="530" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-153" target="4PUE3C8j-RCjqCMSjhHY-154">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-153" value="获取外部应用exit状态值" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2560" y="330" width="200" height="40" as="geometry" />
+          <mxGeometry x="2370" y="330" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-154" target="4PUE3C8j-RCjqCMSjhHY-151">
           <mxGeometry relative="1" as="geometry" />
@@ -350,13 +350,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-154" value="外部应用exit状态值&lt;br&gt;是否为0" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2585" y="410" width="150" height="80" as="geometry" />
+          <mxGeometry x="2395" y="410" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-160" value="抛出BashError异常，使用stderr及stdin内信息作为异常说明" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2560" y="610" width="200" height="40" as="geometry" />
+          <mxGeometry x="2370" y="610" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-162" value="返回调用成功提示" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2795" y="610" width="200" height="40" as="geometry" />
+          <mxGeometry x="2605" y="610" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-166" value="RPA系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="280" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-167" value="FIleManager.open接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="440" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
