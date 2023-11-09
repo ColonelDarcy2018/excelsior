@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T06:24:43.821Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="6j37zV4x2NL4IaHFQw5i" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T06:51:35.237Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="akdsBookHrjNZgon0rZl" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
-    <mxGraphModel dx="1908" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -470,7 +470,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-177" value="peony:xxx&lt;br style=&quot;font-size: 18px;&quot;&gt;dde-file-manager:xxx" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2960" y="923.75" width="110" height="122.5" as="geometry" />
+          <mxGeometry x="2960" y="898.75" width="110" height="122.5" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-178" target="4PUE3C8j-RCjqCMSjhHY-192">
           <mxGeometry relative="1" as="geometry">
@@ -497,8 +497,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-180" value="command_str=&quot;export xxx;peony folder_path&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="3120" y="1120" width="200" height="50" as="geometry" />
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-180" value="command_str=&quot;export xxx;app_name folder_path&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1115" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-182" target="4PUE3C8j-RCjqCMSjhHY-186">
           <mxGeometry relative="1" as="geometry">
@@ -559,7 +559,7 @@
           <mxGeometry x="3400" y="940" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-210" value="获取文件管理器应用命令" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="3120" y="720" width="200" height="40" as="geometry" />
+          <mxGeometry x="3130" y="720" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
