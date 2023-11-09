@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T03:59:02.235Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="9lqWwUvr7ebBndBAaYCy" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T05:51:53.385Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="M8-zrRbRJmZV_NqOH0R5" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
     <mxGraphModel dx="1085" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,13 +383,31 @@
           <mxGeometry x="3230" y="780" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-175" value="其他标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3350" y="640" width="90" height="40" as="geometry" />
+          <mxGeometry x="3360" y="640" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-176" value="subprocess模块创建bash执行命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3120" y="880" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-177" value="peony:xxx&lt;br&gt;dde-file-manager:xxx" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="3000" y="920" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-178" value="抛出异常提示“不支持的操作系统”" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3360" y="780" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-179" target="4PUE3C8j-RCjqCMSjhHY-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-179" value="增加环境变量配置相关命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1005" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4PUE3C8j-RCjqCMSjhHY-180" target="4PUE3C8j-RCjqCMSjhHY-182">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-180" value="command_str=&quot;export xxx;peony folder_path&quot;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-182" value="subprocess.run([&quot;bash&quot;,&quot;-c&quot;,command_str],check=True)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="1290" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
