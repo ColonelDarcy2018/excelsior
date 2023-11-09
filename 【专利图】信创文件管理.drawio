@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-09T02:40:35.988Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="4tHa5Nrf_REzyYrINIRj" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-09T02:59:46.637Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="BfJtfZFK57rqblPFY_9a" version="22.0.8" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
     <mxGraphModel dx="1085" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -363,6 +363,30 @@
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-167" value="FIleManager.open接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="3120" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-168" value="获取当前系统标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="540" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-169" value="kylin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="640" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-170" value="uos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3230" y="640" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-171" value="kylin:peony&lt;br&gt;uos:dde-file-manager" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="3000" y="660" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-173" value="peony" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="780" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-174" value="dde-file-manager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3230" y="780" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-175" value="其他标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="640" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-176" value="subprocess模块创建bash执行命令" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3120" y="880" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
