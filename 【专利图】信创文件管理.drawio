@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T02:03:59.514Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="ddlgLygDGdbEyKiBSBZ8" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T02:15:18.060Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="f7SU5j7Cu3KEiQLMEup9" version="22.1.7" type="github">
   <diagram name="第 1 页" id="TP1V4fHeTRA3vRTPvK3x">
     <mxGraphModel dx="954" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-180" value="command_str=&quot;export xxx;app_name folder_path&quot;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-180" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 17px; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;宋体&quot; style=&quot;font-size: 17px;&quot;&gt;生成最终的&lt;/font&gt;bash命令&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="3120" y="1115" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="4PUE3C8j-RCjqCMSjhHY-182" target="4PUE3C8j-RCjqCMSjhHY-186" edge="1">
@@ -508,7 +508,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4PUE3C8j-RCjqCMSjhHY-182" value="subprocess.run([&quot;bash&quot;,&quot;-c&quot;,command_str],check=True)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
+        <mxCell id="4PUE3C8j-RCjqCMSjhHY-182" value="&lt;p style=&quot;margin: 0pt 0pt 0.0001pt; font-family: &amp;quot;Times New Roman&amp;quot;; font-size: 17px; text-align: start;&quot; class=&quot;MsoNormal&quot;&gt;&lt;font face=&quot;宋体&quot; style=&quot;font-size: 17px;&quot;&gt;调用&lt;/font&gt;bash&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=17;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="3110" y="1270" width="680" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4PUE3C8j-RCjqCMSjhHY-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="4PUE3C8j-RCjqCMSjhHY-185" target="4PUE3C8j-RCjqCMSjhHY-166" edge="1">
